@@ -8,7 +8,7 @@ to create a new lead in the system. In Odoo, each one of your sales
 teams is linked to its own email address from which prospects can reach
 them. For example, if the personal email address of your Direct team is
 **direct@mycompany.example.com**, every email sent will automatically create a new
-opportunity into the sales team.
+opportunity into the sales team. Hola 
 
 Configuración
 =============
