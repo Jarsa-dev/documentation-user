@@ -1,66 +1,62 @@
-================================
-How to create a new salesperson?
-================================
+=============================
+Cómo crear un nuevo vendedor?
+=============================
 
-Create a new user
-=================
+Crear un nuevo usuario
+======================
 
-From the Settings module, go to the submenu :menuselection:`Users --> Users` and click on
-**Create**. Add first the name of your new salesperson and his
-professional email address - the one he will use to log in to his Odoo
-instance - and a picture.
+Desde el módulo de Configuración, ingresa al submenú :menuselection:`Users --> Users`
+y hace clic en **Crear**. Se añade primero el nombre del nuevo vendedor y su correo
+electrónico profesional o de la empresa, el que usará para iniciar sesión en la instancia
+de Odoo, así como la imagen del perfil. 
 
 .. image:: ./media/create01.png
 	:align: center
 
-Under "Access Rights", you can choose which applications your user can
-access and use. Different levels of rights are available depending on
-the app. For the Sales application, you can choose between three levels:
+En "Derechos de Acceso", se puede elegir las aplicaciones que el usuario tiene acceso y puede
+utilizar. Los diferentes niveles de derechos están disponibles dependiendo de la aplicación. Para la aplicación de ventas, se puede elegir entre tres niveles:
 
-- **See own leads**: the user will be able to access his own data only
+- **Ver sus propias iniciativas**: el usuario únicamente podrá ver sus propios datos
 
-- **See all leads**: the user will be able to access all records of every
-  salesman in the sales module
+- **Ver todas las iniciativas**: el usuario tiene acceso a todos los registros de todos los vendedores
+	de su módulo
 
-- **Manager**: the user will be able to access the sales configuration as
-  well as the statistics reports
+- **Gerente**: el usuario será capaz de acceder a la configuración de las ventas, así como a los
+	informes de estadísticas
 
-When you're done editing the page and have clicked on **Save**, an
-invitation email will automatically be sent to the user, from which he
-will be able to log into his personal account.
+Cuando haya terminado de editar la página y haya hecho clic en **Guardar**, un correo electrónico de invitación se enviará automáticamente al usuario, desde el cual será capaz de iniciar sesión siendo
+su cuenta personal.
 
 .. image:: ./media/create02.png
 	:align: center
 
-Register your user into his sales team
-======================================
+Registro el usuario en su equipo de ventas
+==========================================
 
-Your user is now registered in Odoo and can log in to his own session.
-You can also add him to the sales team of your choice. From the sales
-module, go to your dashboard and click on the **More** button of the
-desired sales team, then on **Settings**.
+Su usuario está registrado en Odoo y puede conectarse a su propia sesión. También lo puede
+agregar al equipo de ventas de su elección. Desde el módulo de ventas, vaya a su panel de
+control y haga clic en el botón **Más** del equipo de ventas deseado, luego en **Configuración**.
 
 .. image:: ./media/create03.jpg
 	:align: center
 
 
-.. note::
+.. Nota::
 
-	If you need to create a new sales team first, refer to the page :doc:`../setup/create_team`
+	Si primero necesita crear un nuevo equipo de ventas, consulte la página :doc:`../setup/create_team`
 
-Then, under "Team Members", click on **Add** and select the name of your
-salesman from the list. The salesperson is now successfully added to
-your sales team.
+A continuación, en "Integrantes del equipo", haga clic en **Agregar** y seleccione el nombre de su
+vendedor de la lista. El vendedor se ha añadido correctamente a su equipo de ventas.
 
 .. image:: ./media/create04.png
 	:align: center
 
-.. tip::
+.. Consejo::
 
-	You can also add a new salesperson on the fly from your sales team even before he is registered as an Odoo user.
-	From the above screenshot, click on "Create" to add your salesperson and enter his name and email address.
-	After saving, the salesperson will receive an invite containing a link to set his password.
-	You will then be able to define his accesses rights under the :menuselection:`Settings --> Users` menu.
+	También se puede agregar un nuevo vendedor sobre la marcha del equipo de ventas, incluso antes de que se haya registrado como usuario Odoo.
+	Desde la captura de pantalla anterior, haga clic en "Crear" para añadir a su vendedor y escriba su nombre y correo electrónico.
+	Después de guardar, el vendedor recibirá una invitación que contiene un enlace a establecer su contraseña.
+	A continuación, será capaz de definir sus derechos de acceso bajo el :menuselection:`Settings --> Users` menú.
 
 .. seealso::
 

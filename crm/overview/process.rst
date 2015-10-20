@@ -1,6 +1,6 @@
-================
-Process Overview
-================
+=========================
+Vista General del Proceso
+=========================
 
 .. toctree::
    :titlesonly:
