@@ -1,7 +1,7 @@
 :banner: banners/purchase.jpg
 
 ========
-Purchase
+Compras
 ========
 
 .. toctree::

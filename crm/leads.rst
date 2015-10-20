@@ -1,5 +1,5 @@
 =====
-Leads
+Clientes Potenciales
 =====
 
 .. toctree::

@@ -1,5 +1,5 @@
 ===========================================
-How to generate leads from incoming emails?
+¿Cómo generar un cliente potencial desde un correo recibido?
 ===========================================
 
 There are several ways for your company to :doc:`generate leads with Odoo CRM <manual>`.
@@ -10,7 +10,7 @@ them. For example, if the personal email address of your Direct team is
 **direct@mycompany.example.com**, every email sent will automatically create a new
 opportunity into the sales team.
 
-Configuration
+Configuración
 =============
 
 The first thing you need to do is to configure your **outgoing email
@@ -22,7 +22,7 @@ click on **Apply**.
 .. image:: ./media/emails01.jpg
    :align: center
 
-Set up team alias
+Crear un alias de equipo
 =================
 
 Go on the Sales module and click on **Dashboard**. You will see that the
@@ -44,7 +44,7 @@ lead into the related sales team.
 .. image:: ./media/emails03.jpg
    :align: center
 
-Set up catch-all email domain
+Configurar Set up catch-all email domain
 =============================
 
 Additionally to your sales team aliases, you can also create a generic

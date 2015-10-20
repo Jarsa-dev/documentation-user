@@ -1,5 +1,5 @@
 ======================================
-How to create a contact into Odoo CRM?
+¿Cómo crear un contacto en el CRM de Odoo?
 ======================================
 
 Odoo CRM allows you to manually add contacts into your pipeline. It can
@@ -22,7 +22,7 @@ which you will be able to create a new contact.
 .. image:: ./media/manual02.jpg
 	:align: center
 
-Create a new lead
+Crear una nueva inciativa
 =================
 
 Go to :menuselection:`Sales --> Leads` and click the **Create** button.
@@ -41,7 +41,7 @@ on save and the contact will be visible as a lead in your pipeline .
 	your lead can be directly handed over to specific sales team and salesperson
 	by clicking on **Convert to Opportunity** on the upper left corner of the screen.
 
-Create a new opportunity
+Crear una nueva Oportunidad
 ========================
 
 You can also directly add a contact into a specific sales team without

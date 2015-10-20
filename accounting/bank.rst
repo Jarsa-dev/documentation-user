@@ -1,5 +1,5 @@
 ===========
-Bank & Cash
+Banco y Efectivo
 ===========
 
 .. toctree::

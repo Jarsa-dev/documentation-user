@@ -1,5 +1,5 @@
 ====================
-Warehouse Management
+Control de Inventarios
 ====================
 
 .. toctree::

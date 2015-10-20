@@ -1,5 +1,5 @@
 ======================================
-How to generate leads from my website?
+¿Cómo generar iniciativas desde mi sitio web?
 ======================================
 
 Your website should be your company's first lead generation tool. With
