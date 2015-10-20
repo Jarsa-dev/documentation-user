@@ -1,6 +1,6 @@
-==========
-Sales Team
-==========
+=================
+Equipos de Ventas
+=================
 
 .. toctree::
    :titlesonly:

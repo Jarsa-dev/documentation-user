@@ -1,6 +1,6 @@
-==================
-Manage salespeople
-==================
+=============================
+Manejo del personal de ventas
+=============================
 
 .. toctree::
    :titlesonly:

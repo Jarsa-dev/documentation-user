@@ -18,11 +18,11 @@ dar seguimiento y dar un mejor servicio a tus clientes potenciales.
 Por qué es importante generar iniciativas para la empresa?
 ==========================================================
 
-El generar un flujo constante de clientes potenciales de alta calidad es una de las
-más importantes responsabilidades del equipo de ventas. En realidad, un buen manejo
-de generar iniciativas es como el combustible de la empresa que le permitirá entregar
-grandes resultados; las iniciativas traen reuniones, las reuniones traen ventas, las
-ventas provocan ingresos y mas trabajo. 
+El generar un flujo constante de clientes potenciales de alta calidad es una de
+las más importantes responsabilidades del equipo de ventas. En realidad, un buen
+manejo de generar iniciativas es como el combustible de la empresa que le permitirá
+entregar grandes resultados; las iniciativas traen reuniones, las reuniones traen
+ventas, las ventas provocan ingresos y mas trabajo. 
 
 Cómo generar iniciativas con Odoo CRM?
 ======================================
@@ -30,10 +30,10 @@ Cómo generar iniciativas con Odoo CRM?
 Las iniciativas pueden ser capturadas de diferentes maneras, por publicidad, campañas,
 exhibiciones y ferias de negocios, bases de datos externas, etc. El reto más común es 
 reunir con éxito todos los datos y realizar el seguimiento de cualquier actividad de
-la iniciativa. Al almacenar la información de cada iniciativa, Odoo CRM lo liberará de
-estas preocupaciones y le ayudará a tener una mejor automatización del proceso de generar
-iniciativas, compartiendo información con su equipo de ventas y analizando los procesos
-de manera muy fácil. 
+la iniciativa. Al almacenar la información de cada iniciativa, Odoo CRM lo liberará
+de estas preocupaciones y le ayudará a tener una mejor automatización del proceso de
+generar iniciativas, compartiendo información con su equipo de ventas y analizando
+los procesos de manera muy fácil. 
 
 Odoo CRM ofrece varios métodos para generar iniciativas:
 
