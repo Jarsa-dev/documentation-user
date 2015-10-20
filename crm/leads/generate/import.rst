@@ -1,5 +1,5 @@
 ==================================
-How to import contacts to the CRM?
+¿Cómo importar contactos al CRM?
 ==================================
 
 In Odoo CRM, you can import a database of potential customers, for

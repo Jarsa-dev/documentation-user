@@ -1,5 +1,5 @@
 ============
-Manage leads
+Administrar Clientes Potenciales
 ============
 
 .. toctree::

@@ -1,7 +1,7 @@
 :banner: banners/inventory.jpg
 
 =========
-Inventory
+Inventarios
 =========
 
 .. toctree::

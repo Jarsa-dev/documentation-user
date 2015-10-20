@@ -1,5 +1,5 @@
 ============
-Applications
+Aplicaciones
 ============
 
 .. toctree::

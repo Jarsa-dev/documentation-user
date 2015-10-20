@@ -1,5 +1,5 @@
 =======================
-Odoo User Documentation
+Documentación de usuario para Odoo V9
 =======================
 
 .. rst-class:: index-tree
@@ -7,5 +7,5 @@ Odoo User Documentation
 .. toctree::
     :titlesonly:
 
-    Index <self>
+    Indice <self>
     applications

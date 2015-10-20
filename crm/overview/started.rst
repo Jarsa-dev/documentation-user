@@ -1,5 +1,5 @@
 ===============
-Getting started
+Primeros pasos
 ===============
 
 .. toctree::

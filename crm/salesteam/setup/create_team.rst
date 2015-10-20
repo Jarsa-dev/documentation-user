@@ -1,5 +1,5 @@
 =========================
-How to create a new team?
+¿Cómo crear un nuevo equipo de Ventas?
 =========================
 
 In the Sales module, your sales teams are accessible from the

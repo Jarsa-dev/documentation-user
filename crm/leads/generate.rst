@@ -1,5 +1,5 @@
 ==============
-Generate leads
+Generar Clientes Potenciales
 ==============
 
 .. toctree::
