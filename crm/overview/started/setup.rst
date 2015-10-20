@@ -1,120 +1,102 @@
-=======================================================
-How to setup your teams, sales process and objectives ?
-=======================================================
+======================================================================
+Cómo configurar los equipos, el proceso y los objetivos de las ventas?
+======================================================================
 
-This quick step-by-step guide will lead you through Odoo CRM and help
-you handle your sales funnel easily and constantly manage your sales
-funnel from lead to customer.
+Esta guía rápida paso a paso los guiará a través Odoo CRM y les ayudará a manejar
+y canalizar sus ventas fácil y constantemente, administrando las ventas de inciativas
+a cientes potenciales.
 
-Configuration
+Configuración
 =============
 
-Create your database from `www.odoo.com/start <http://www.odoo.com/start>`__, select the CRM
-icon as first app to install, fill in the form and click on *Create
-now*. You will automatically be directed to the module when the database
-is ready.
+Primero es necesario crear una base de datos de `www.odoo.com/start <http://www.odoo.com/start>`__, seleccione el icono de CRM como primera aplicación para instalar, llene el formulario y
+haga clic en *Crear ahora*. Usted será automáticamente dirigido al módulo cuando la base de
+datos esté lista.
 
 .. image:: media/setup01.png
   :align: center
 
-.. tip::
+.. Consejo::
 
-        You will notice that the installation of the CRM module has created the
-        submodules Chat, Calendar and Contacts. They are mandatory so that every
-        feature of the app is running smoothly.
+        Usted se dará cuenta de que la instalación del módulo de CRM ha creado los submódulos Chat, Calendario y Contactos. Estos son obligatorios para que todas las características de la 
+        aplicación funcionen sin problemas.
 
-Introduction to the Sales Planner
-=================================
+Introducción a la Planeación de ventas
+======================================
 
-The Sales Planner is a useful step-by-step guide created to help you
-implement your sales funnel and define your sales objectives easier. We
-strongly recommend you to go through every step of the tool the first
-time you use Odoo CRM and to follow the requirements. Your input are
-strictly personal and intended as a personal guide and mentor into your
-work. As it does not interact with the backend, you are free to adapt
-any detail whenever you feel it is needed.
+El Planificador de Ventas es una guía útil paso a paso, creado para ayudarle a implementar
+su canal de ventas y definir sus objetivos de ventas de manera sencilla. Le recomendamos
+que vaya a través de cada paso de la herramienta la primera vez que utilice Odoo CRM y es 
+necesario seguir los requisitos. Su entrada es estrictamente personal y esta pretende ser
+una guía personal y como mentor en su trabajo. Como no interactúa con el servidor, usted
+es libre de adaptar cualquier detalle cada vez que sienta que es necesario.
 
-You can reach the Sales Planner from anywhere within the CRM module by
-clicking on the progress bar located on the upper-right side of your
-screen. It will show you how far you are in the use of the Sales
-Planner.
+Se puede llegar al Planificador de Ventas desde cualquier lugar dentro del módulo de CRM,
+haga clic en la barra de progreso situada en la parte superior derecha de la pantalla. Se
+le mostrará hasta dónde está usted en el uso del Planificador de Ventas.
 
 .. image:: ./media/setup02.png
    :align: center
 
-Set up your first sales team
-============================
+Configure su primer equipo de ventas
+====================================
 
-Create a new team
------------------
+Crea un nuevo equipo
+--------------------
 
-A Direct Sales team is created by default on your instance. You can
-either use it or create a new one. Refer to the page :doc:`../../salesteam/setup/create_team`
-for more information.
+Un equipo de Venta Directa es creado por defecto en la instancia. Usted puede usarlo o crear uno nuevo. Consulte la página is :doc:`../../salesteam/setup/create_team` para más información.
 
-Assign salespeople to your sales team
--------------------------------------
+Asignar vendedores responsables al equipo de venta
+--------------------------------------------------
 
-When your sales teams are created, the next step is to link your
-salespeople to their team so they will be able to work on the
-opportunities they are supposed to receive. For example, if within your
-company Tim is selling products and John is selling maintenance
-contracts, they will be assigned to different teams and will only
-receive opportunities that make sense to them.
+Cuando se crean equipos de ventas, el siguiente paso es vincular su personal de ventas al
+equipo para que sean capaces de trabajar en las oportunidades que se supone deben recibir.
+Por ejemplo, si dentro de su empresa Tim es el encargo de la venta de productos y John es
+responsable de la  venta de contratos de mantenimiento, ellos serán asignados a diferentes
+equipos y sólo recibirán oportunidades que tengan sentido para ellos.
 
-In Odoo CRM, you can create a new user on the fly and assign it directly
-to a sales team. From the **Dashboard**, click on the button **More** of
-your selected sales team, then on **Settings**. Then, under the
-**Assignation** section, click on **Create** to add a new salesperson to
-the team.
+En Odoo CRM, puede crear un nuevo usuario sobre la marcha y asignar directamente a un equipo
+de ventas. Desde el **Tablero**, haga clic en el botón **Más** de su equipo de ventas seleccionado,
+a continuación en **Configuración**. Luego, en la sección **Asignación**, haga clic en **Crear**
+para agregar un nuevo vendedor al equipo.
 
-From the **Create: salesman** pop up window (see screenshot below),
-you can assign someone on your team:
+Desde la **Creación: Vendedor** aparecerá la ventana (ver imagen abajo),
+se puede asignar a alguien en su equipo:
 
-- Either your salesperson already exists in the system and you will
-  just need to click on it from the drop-down list and it will be
-  assigned to the team
-- Or you want to assign a new salesperson that doesn't exist into the
-  system yet - you can do it by creating a new user on the fly from
-  the sales team. Just enter the name of your new salesperson and
-  click on Create (see below) to create a new user into the system
-  and directly assign it to your team. The new user will receive an
-  invite email to set his password and log into the system. Refer
-  to :doc:`../../salesteam/manage/create_salesperson`
-  for more information about that process
+- Puede ser que su vendedor ya existe en el sistema y usted sólo tiene que hacer
+  clic en él en la lista desplegable y se le asignará al equipo
+- O usted desea asignar un nuevo vendedor que no existe en el sistema sin embargo, usted puede
+  hacerlo mediante la creación de un nuevo usuario sobre la marcha del equipo de ventas. Sólo
+  tiene que introducir el nombre de su nuevo vendedor y haga clic en Create (ver más abajo) para
+  crear un nuevo usuario en el sistema y directamente asignarlo a su equipo. El nuevo usuario
+  recibirá una invitación de correo electrónico para configurar su contraseña y entrar en el
+  sistema. Consulte :doc:`../../salesteam/manage/create_salesperson`Para obtener más información
+  acerca de este proceso.
 
 .. image:: ./media/setup03.png
    :align: center
 
-Set up your pipeline
---------------------
+Configure su flujo de trabajo
+-----------------------------
 
-Now that your sales team is created and your salespeople are linked to
-it, you will need to set up your pipeline -create the process by which
-your team will generate, qualify and close opportunities through your
-sales cycle. Refer to the document :doc:`../../salesteam/setup/organize_pipeline`
-to define the stages of your pipeline.
+Ahora que su equipo de ventas esta creado y sus vendedores están vinculados al mismo, tendrá que
+configurar su flujo de trabajo, crear el proceso por el que el equipo va a generar, calificar y cerrar las oportunidades a través de su ciclo de ventas. Consulte el documento :doc:`../../salesteam/setup/organize_pipeline` para definir las etapas del flujo de trabajo. 
 
-Set up incoming email to generate opportunities
------------------------------------------------
+Configuración del nuevo correo electrónico para generar oportunidades
+---------------------------------------------------------------------
 
-In Odoo CRM, one way to generate opportunities into your sales team is
-to create a generic email address as a trigger. For example, if the
-personal email address of your Direct team is
-`direct@mycompany.example.com <mailto:direct@mycompany.example.com>`__\, 
-every email sent will automatically create a new opportunity into the
-sales team.
+En Odoo CRM, una manera de generar oportunidades en su equipo de ventas es crear una dirección
+de correo electrónico genérica como un disparador. Por ejemplo, si la dirección de correo electrónico personal de su equipo de directo es `direct@mycompany.example.com <mailto:direct@mycompany.example.com>`__\, cada correo electrónico enviado creará automáticamente una nueva oportunidad en el equipo de ventas.
 
-Refer to the page :doc:`../../leads/generate/emails` to set it up.
+Consulte la página :doc:`../../leads/generate/emails` para configurarlo.
 
-Automate lead assignation
--------------------------
+Automatice la asignación de iniciativas
+---------------------------------------
 
-If your company generates a high volume of leads every day, it could
-be useful to automate the assignation so the system will distribute
-all your opportunities automatically to the right department.
+Si su empresa genera un gran volumen de clientes potenciales cada día, podría ser útil para automatizar
+la asignación y así el sistema distribuirá todas sus oportunidades de forma automática al departamento correcto.
 
-Refer to the document :doc:`../../leads/manage/automatic_assignation` for more information.
+Consulte el documento :doc:`../../leads/manage/automatic_assignation` para más información.s
 
 .. todo::
     
