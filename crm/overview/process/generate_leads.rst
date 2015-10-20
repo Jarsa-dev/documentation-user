@@ -1,62 +1,63 @@
+================================
+Generar iniciativas con Odoo CRM
+================================
+
+Qué es generar una iniciativa?
 ==============================
-Generating leads with Odoo CRM
-==============================
 
-What is lead generation?
-========================
+El generar inciativas es el proceso por el cual se adquiere contacto y se
+recogen los datos relevantes sobre los clientes con el fin de establecer una
+buena relación y poder volverlos clientes potenciales. 
 
-Lead generation is the process by which a company acquires leads and
-collects relevant datas about potential customers in order to enable a
-relationship and to turn them into customers.
+Por ejemplo, un visitante de tu página web que llena el formulario de contacto
+pidiendo más información acerca de los productos y servicios, se convierte en
+una oportunidad para tu empresa. Por lo general, una herramienta de gestión de
+relaciones con los clientes, como Odoo CRM, se utiliza para centralizar, para 
+dar seguimiento y dar un mejor servicio a tus clientes potenciales. 
 
-For example, a website visitor who fills in your contact form to know
-more about your products and services becomes a lead for your company.
-Typically, a Customer Relationship Management tool such as Odoo CRM is
-used to centralize, track and manage leads.
+Por qué es importante generar iniciativas para la empresa?
+==========================================================
 
-Why is lead generation important for my business?
-=================================================
+El generar un flujo constante de clientes potenciales de alta calidad es una de las
+más importantes responsabilidades del equipo de ventas. En realidad, un buen manejo
+de generar iniciativas es como el combustible de la empresa que le permitirá entregar
+grandes resultados; las iniciativas traen reuniones, las reuniones traen ventas, las
+ventas provocan ingresos y mas trabajo. 
 
-Generating a constant flow of high-quality leads is one of the most
-important responsibility of a marketing team. Actually, a well-managed
-lead generation process is like the fuel that will allow your company to
-deliver great performances - leads bring meetings, meetings bring sales,
-sales bring revenue and more work.
+Cómo generar iniciativas con Odoo CRM?
+======================================
 
-How to generate leads with Odoo CRM?
-====================================
+Las iniciativas pueden ser capturadas de diferentes maneras, por publicidad, campañas,
+exhibiciones y ferias de negocios, bases de datos externas, etc. El reto más común es 
+reunir con éxito todos los datos y realizar el seguimiento de cualquier actividad de
+la iniciativa. Al almacenar la información de cada iniciativa, Odoo CRM lo liberará de
+estas preocupaciones y le ayudará a tener una mejor automatización del proceso de generar
+iniciativas, compartiendo información con su equipo de ventas y analizando los procesos
+de manera muy fácil. 
 
-Leads can be captured through many sources - marketing campaigns,
-exhibitions and trade shows, external databases, etc. The most common
-challenge is to successfully gather all the data and to track any lead
-activity. Storing leads information in a central place such as Odoo CRM
-will release you of these worries and will help you to better automate
-your lead generation process, share information with your teams and
-analyze your sales processes easily.
-
-Odoo CRM provides you with several methods to generate leads:
+Odoo CRM ofrece varios métodos para generar iniciativas:
 
 * :doc:`../../leads/generate/emails`
 
-  An inquiry email sent to one of your company’s generic email addresses
-  can automatically generate a lead or an opportunity.
+  Un correo electrónico enviado a una de las direcciones de correo genéricas de su empresa
+  puede generar automáticamente una ventaja o una oportunidad.
 
 * :doc:`../../leads/generate/manual`
 
-  You may want to follow up with a prospective customer met briefly at an
-  exhibition who gave you his business card. You can manually create a new
-  lead and enter all the needed information.
+  Es posible que desee hacer seguimiento de un cliente potencial con el que se reunió brevemente
+  en una exposición donde intercambiaron tarjetas. Puede crear manualmente una nueva iniciativa
+  e introduzcir toda la información necesaria.
 
 * :doc:`../../leads/generate/website`
 
-  A website visitor who fills in a form automatically generates a lead or
-  an opportunity in Odoo CRM.
+  Un visitante de la página web que llena el formulario de registro, automáticamente genera una
+  ventaja o una oportunidad en Odoo CRM.
 
 * :doc:`../../leads/generate/import`
 
-  You can provide your salespeople lists of prospects - for example for a
-  cold emailing or a cold calling campaign - by importing them from any
-  CSV file.
+  Puedes proveerles a tus agentes de ventas una lista de prospectos, por ejemplo un número de 
+  teléfono o un correo electrónico de clientes potenciales que no conocen la empresa, importandólos
+  desde cualquier archivo CSV. 
 
 .. rst-class:: text-muted
 
