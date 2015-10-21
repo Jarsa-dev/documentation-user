@@ -5,7 +5,7 @@ Cómo crear un nuevo vendedor?
 Crear un nuevo usuario
 ======================
 
-Desde el módulo de Configuración, ingresa al submenú :menuselection:`Users --> Users`
+Desde el módulo de Configuración, ingresa al submenú :menuselection:`Usuario --> Usuario`
 y hace clic en **Crear**. Se añade primero el nombre del nuevo vendedor y su correo
 electrónico profesional o de la empresa, el que usará para iniciar sesión en la instancia
 de Odoo, así como la imagen del perfil. 

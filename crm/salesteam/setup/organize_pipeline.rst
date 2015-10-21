@@ -61,7 +61,7 @@ Activar etapas a las iniciativas
 
 Algunas empresas utilizan una pre calificación para gestionar a sus iniciativas antes
 de convertirlos en oportunidades. Para activar el escenario principal, vaya a
-:menuselection:`Configuration --> Settings` y seleccione el botón de radio como se
+:menuselection:`Configuración --> Ajustes` y seleccione el botón de radio como se
 muestra a continuación. Se va a crear un nuevo submenú **Iniciativas** abajo de **Ventas**
 que le da acceso a una vista de lista de todos sus clientes potenciales.
 
