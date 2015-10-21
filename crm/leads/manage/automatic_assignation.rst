@@ -6,8 +6,8 @@ Dependiendo del flujo de trabajo y las necesidades de su empresa, usted necesita
 enviar a sus iniciativas entrantes a diferentes equipos de ventas o incluso 
 especificar a cuales vendedores serán asignados. Éstos son algunos ejemplos: 
 
-- Su empresa tiene varias oficinas base en diferentes regiones geográficas. Usted
-	tendrá que asignar las iniciativas basadas en la región; 
+- Su empresa tiene varias oficinas base en diferentes regiones geográficas.
+	Usted tendrá que asignar las iniciativas basadas en la región; 
 
 - Uno de sus equipos se dedica a tratar a las oportunidades de las grandes empresas,
 	mientras que otro equipo debe estar especializado en las PYMES. Usted tendrá que
@@ -83,7 +83,7 @@ opción en el submenú asignación. A continuación, introduzca su regla en el c
 	a un vendedor. Por lo tanto, es necesario asegurarse de que la regla de asignación de su
 	vendedor es un hijo de la regla de asignación del equipo de ventas.
 
-.. vertambien::
+.. seealso::
 
 	* :doc:`../../overview/started/setup`
 
