@@ -70,7 +70,7 @@ se puede asignar a alguien en su equipo:
   tiene que introducir el nombre de su nuevo vendedor y haga clic en Create (ver más abajo) para
   crear un nuevo usuario en el sistema y directamente asignarlo a su equipo. El nuevo usuario
   recibirá una invitación de correo electrónico para configurar su contraseña y entrar en el
-  sistema. Consulte :doc:`../../salesteam/manage/create_salesperson`Para obtener más información
+  sistema. Consulte :doc:`../../salesteam/manage/create_salesperson` Para obtener más información
   acerca de este proceso.
 
 .. image:: ./media/setup03.png
