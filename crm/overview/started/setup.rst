@@ -1,5 +1,5 @@
 ======================================================================
-Cómo configurar los equipos, el proceso y los objetivos de las ventas?
+¿Cómo configurar los equipos, el proceso y los objetivos de las ventas?
 ======================================================================
 
 Esta guía rápida paso a paso los guiará a través Odoo CRM y les ayudará a manejar

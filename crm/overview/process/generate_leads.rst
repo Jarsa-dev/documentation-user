@@ -2,7 +2,7 @@
 Generar iniciativas con Odoo CRM
 ================================
 
-Qué es generar una iniciativa?
+¿Qué es generar una iniciativa?
 ==============================
 
 El generar inciativas es el proceso por el cual se adquiere contacto y se
@@ -15,7 +15,7 @@ una oportunidad para tu empresa. Por lo general, una herramienta de gestión de
 relaciones con los clientes, como Odoo CRM, se utiliza para centralizar, para 
 dar seguimiento y dar un mejor servicio a tus clientes potenciales. 
 
-Por qué es importante generar iniciativas para la empresa?
+¿Por qué es importante generar iniciativas para la empresa?
 ==========================================================
 
 El generar un flujo constante de clientes potenciales de alta calidad es una de las
@@ -24,7 +24,7 @@ de generar iniciativas es como el combustible de la empresa que le permitirá en
 grandes resultados; las iniciativas traen reuniones, las reuniones traen ventas, las
 ventas provocan ingresos y mas trabajo.
 
-Cómo generar iniciativas con Odoo CRM?
+¿Cómo generar iniciativas con Odoo CRM?
 ======================================
 
 Las iniciativas pueden ser capturadas de diferentes maneras, por publicidad, campañas,
