@@ -2,37 +2,35 @@
 ¿Cómo crear un nuevo equipo de Ventas?
 =========================
 
-In the Sales module, your sales teams are accessible from the
-**Dashboard** menu. If you start from a new instance, you will find a
-sales team installed by default : Direct sales. You can either start
-using that default sales team and edit it (refer to the section
-*Create and Organize your stages* from the page :doc:`organize_pipeline`)
-or create a new one from scratch.
+En el módulo de ventas, sus equipos de ventas son accesibles desde el
+menú **Tablero**. Si se inicia desde una nueva instancia, se encuentra un
+equipo de ventas instalado por defecto: Ventas Directas. Se puede iniciar
+usando ese equipo de ventas predeterminados y editarlo (consulte la sección
+*Crear y organizar sus etapas* de la página :doc:`organize_pipeline`)
+o crear uno nuevo desde cero.
 
-To create a new team, go to :menuselection:`Configuration --> Sales Teams` and
-click on **Create**.
+Para crear un nuevo equipo de ventas, ve a la sección :menuselection:`Configuration --> Sales Teams`
+y haz clic en **Crear**.
 
 .. image:: ./media/create01.png
   :align: center
 
-Fill in the fields :
+Rellene los campos:
 
--  Enter the name of your team
+-  Introduzca nombre del equipo
 
--  Select your team leader
+-  Seleccione al jefe del equipo
 
--  Select your team members
+-  Seleccione lo integrantes del equipo
 
-Don't forget to tick the "Opportunities" box if you want to manage
-opportunities from it and to click on SAVE when you're done. Your can
-now access your new team from your Dashboard.
+No olvide marcar la casilla "Oportunidades" si usted desea gestionar las oportunidades, y debe dar clic en GUARDAR cuando haya terminado. Ahora usted puede acceder al nuevo equipo de ventas desde el Tablero. 
 
 .. image:: ./media/create02.png
   :align: center
 
-.. note:: 
+.. Nota:: 
 
-	If you started to work on an empty database and didn't create new users, refer to the page :doc:`../manage/create_salesperson`.
+	Si usted empieza a trabajar en una base de datos vacía y no puede crear nuevos usuarios, consulte la página :doc:`../manage/create_salesperson`.
 
 .. rst-class:: text-muted
 
