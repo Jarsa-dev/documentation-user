@@ -160,5 +160,7 @@ o Ganada.
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Samuel Cabodi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Samuel Cabodi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
+

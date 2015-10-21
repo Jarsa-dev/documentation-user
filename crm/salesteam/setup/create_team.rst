@@ -34,5 +34,6 @@ No olvide marcar la casilla "Oportunidades" si usted desea gestionar las oportun
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Yves-Pascal Mukadi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Samuel Cabodi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
