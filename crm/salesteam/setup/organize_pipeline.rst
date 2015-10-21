@@ -71,7 +71,7 @@ que le da acceso a una vista de lista de todos sus clientes potenciales.
 Establecer probabilidades en las etapas
 =======================================
 
-Cuáles son las probabilidades de las etapas?
+¿Cuáles son las probabilidades de las etapas?
 ------------------------------------------------
 
 Para entender mejor cuáles son las posibilidades de cerrar un acuerdo para una oportunidad
@@ -131,7 +131,7 @@ tener este aspecto:
       Usted debe considerar el uso de valor de probabilidad como **100** cuando se
       haya ganado o cerrado el acuerdo y **0** para acuerdo se cerró y está perdido.
 
-Cómo establecer probabilidades en las etapas? 
+¿Cómo establecer probabilidades en las etapas? 
 ---------------------------------------------
 
 Para editar las etapas, haga clic en el botón **Configuración** que se encuentra de

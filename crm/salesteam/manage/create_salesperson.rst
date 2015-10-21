@@ -1,5 +1,5 @@
 =============================
-Cómo crear un nuevo vendedor?
+¿Cómo crear un nuevo vendedor?
 =============================
 
 Crear un nuevo usuario

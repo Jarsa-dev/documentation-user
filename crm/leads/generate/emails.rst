@@ -1,6 +1,6 @@
-===========================================
+============================================================
 ¿Cómo generar un cliente potencial desde un correo recibido?
-===========================================
+============================================================
 
 There are several ways for your company to :doc:`generate leads with Odoo CRM <manual>`.
 One of them is using your company's generic email address as a trigger
