@@ -1,92 +1,89 @@
-================================================================
-Automate lead assignation to specific sales teams or salespeople
-================================================================
+========================================================================================
+Automatice la asignación de iniciativas a los equipos de ventas o vendedores específicos
+========================================================================================
 
-Depending on your business workflow and needs, you may need to dispatch
-your incoming leads to different sales team or even to specific
-salespeople. Here are a few example:
+Dependiendo del flujo de trabajo y las necesidades de su empresa, usted necesita 
+enviar a sus iniciativas entrantes a diferentes equipos de ventas o incluso 
+especificar a cuales vendedores serán asignados. Éstos son algunos ejemplos: 
 
-- Your company has several offices based on different geographical
-  regions. You will want to assign leads based on the region;
+- Su empresa tiene varias oficinas base en diferentes regiones geográficas. Usted
+	tendrá que asignar las iniciativas basadas en la región; 
 
-- One of your sales teams is dedicated to treat opportunities from
-  large companies while another one is specialized for SMEs. You
-  will want to assign leads based on the company size;
+- Uno de sus equipos se dedica a tratar a las oportunidades de las grandes empresas,
+	mientras que otro equipo debe estar especializado en las PYMES. Usted tendrá que
+	asignar las iniciativas en base al tamño de la empresa;
 
-- One of your sales representatives is the only one to speak foreign
-  languages while the rest of the team speaks English only.
-  Therefore you will want to assign to that person all the leads
-  from non-native English-speaking countries.
+- Uno de sus representantes de ventas es el único en hablar idiomas extranjeros,
+	mientras que el resto des equipo habla Inglés solamente. Por lo tanto, tendrá
+	que asignar a esa persona todas las iniciativas de los países donde el idioma
+	Inglés no es su lengua nativa. 
 
-As you can imagine, manually assigning new leads to specific individuals
-can be tedious and time consuming - especially if your company generates
-a high volume of leads every day. Fortunately, Odoo CRM allows you to
-automate the process of lead assignation based on specific criteria such
-as location, interests, company size, etc. With specific workflows and
-precise rules, you will be able to distribute all your opportunities
-automatically to the right sales teams and/or salesman.
+Como se pueden imaginar, asignar manualmente nuevas iniciativas a personas específicas
+puede ser tedioso y lento, especialmente si su empresa genera un gran volumen de
+clientes potenciales cada día. Afortunadamente, Odoo CRM permite automatizar el proceso
+de asignación de iniciativas en base a criterios específicos, tales como la ubicación,
+intereses, tamaño de la empresa, etc., con flujos de trabajo específicos y reglas precisas,
+usted será capaz de distribuir todas sus oportunidades automáticamente a los equipos de
+ventas y/o al vendedor adecuado.
 
-Configuration
+Configuración
 =============
 
-If you have just started with Odoo CRM and haven't set up your sales
-team nor registered your salespeople, :doc:`read this documentation first <../../overview/started/setup>`.
+Si usted acaba de iniciar a trabajar con Odoo y no sabe como estableces equipos de ventas, ni registrar a us vendedores, :doc:`revisa este documento primero <../../overview/started/setup>`.
 
-Define rules for a sales team
-=============================
+Defina reglas para sus equipos de ventas
+========================================
 
-From the sales module, go to your dashboard and click on the **More**
-button of the desired sales team, then on **Settings**. If you don't
-have any sales team yet, :doc:`you need to create one first <../../salesteam/setup/create_team>`.
+Desde el módulo de ventas, vaya a su panel de control y haga clic en el botón **Más** del equipo de ventas deseado, luego en **Configuración**. Si usted no tiene ningún equipo de ventas, :doc:`es necesario crearlo primero <../../salesteam/setup/create_team>`.
 
 .. image:: ./media/automatic01.jpg
    :align: center
 
+En el menú de su equipo de ventas, use el **Dominio** del campo específico con su regla
+(para más detalles técnicos sobre el dominio, hacemos referencia al
+`Tutorial de Construcción de Módulos <https://www.odoo.com/documentation/8.0/howtos/backend.html#domains>`__
+o a la  `Guía de referencias de Sintaxis <https://www.odoo.com/documentation/8.0/reference/orm.html#reference-orm-domains>`__)
+el cual permitirá que sólo las iniciativas coincidan con el equipo de ventas. 
 
-On your sales team menu, use in the **Domain** field a specific domain
-rule (for technical details on the domain refer on the
-`Building a Module tutorial <https://www.odoo.com/documentation/8.0/howtos/backend.html#domains>`__
-or `Syntax reference guide <https://www.odoo.com/documentation/8.0/reference/orm.html#reference-orm-domains>`__)
-which will allow only the leads matching the team domain.
-
-For example, if you want your *Direct Sales* team to only receive leads
-coming from United States and Canada, your domain will be as following :
+Por ejemplo, si usted quiere que su equipo de *Ventas Directas* sólo reciba
+derivaciones procedentes de Estados Unidos y Canadá, el dominio será de la
+siguiente manera:
 
 ``[[country_id, 'in', ['United States', 'Canada']]]``
 
 .. image:: ./media/automatic02.jpg
    :align: center
 
-.. note::
+.. Nota::
 
-	you can also base your automatic assignment on the score attributed to your
-	leads. For example, we can imagine that you want all the leads with a score
-	under 100 to be assigned to a sales team trained for lighter projects and
-	the leads over 100 to a more experienced sales team. Read more on :doc:`how to score leads here <lead_scoring>`.
+	también se puede basar la asignación automática de la puntuación atribuida a sus 
+	lientes potenciales. Por ejemplo, podemos imaginar que desea que todos las iniciativas
+	con una puntuación por debajo de 100, se asignarán a un equipo de ventas entrenados para 
+	royectos más ligeros y las iniciativas de más de 100 a un equipo de ventas con más
+	experiencia. Lea más sobre :doc:`la forma de puntuación clientes potenciales aquí <lead_scoring>`.
 
-Define rules for a salesperson
-==============================
+Defina reglas para los vendedores
+=================================
 
-You can go one step further in your assignment rules and decide to
-assign leads within a sales team to a specific salesperson. For example,
-if I want Toni Buchanan from the *Direct Sales* team to receive only
-leads coming from Canada, I can create a rule that will automatically
-assign him leads from that country.
+Usted puede ir un paso más allá en sus reglas de asignación y decidir como asignar los
+clientes potenciales a un equipo de ventas o a un vendedor específico. Por ejemplo,
+si quiero que Toni Buchanan del equipo de *Ventas Directas* únicamente reciba iniciativas
+procedentes de Canadá, puedo crear una regla que asignará automáticamente las iniciativas
+ese país.
 
-Still from the sales team menu (see here above), click on the
-salesperson of your choice under the assignment submenu. Then, enter
-your rule in the *Domain* field.
+Aún en el menú de equipo de ventas (ver aquí arriba), haga clic en el vendedor de su
+opción en el submenú asignación. A continuación, introduzca su regla en el campo *Dominio*.
 
 .. image:: ./media/automatic03.jpg
    :align: center
 
-.. note::
+.. Nota::
 
-	In Odoo, a lead is always assigned to a sales team before to be assigned to
-	a salesperson. Therefore, you need to make sure that the assignment rule of
-	your salesperson is a child of the assignment rule of the sales team.
+	En Odoo, una iniciativa siempre se asigna a un equipo de ventas antes de ser asignado
+	a un vendedor. Por lo tanto, es necesario asegurarse de que la regla de asignación de su
+	vendedor es un hijo de la regla de asignación del equipo de ventas.
 
-.. seealso::
+.. vertambien::
 
 	* :doc:`../../overview/started/setup`
 
@@ -97,5 +94,6 @@ your rule in the *Domain* field.
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Samuel Cabodi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Samuel Cabodi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
