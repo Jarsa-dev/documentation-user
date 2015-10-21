@@ -9,7 +9,7 @@ usando ese equipo de ventas predeterminados y editarlo (consulte la sección
 *Crear y organizar sus etapas* de la página :doc:`organize_pipeline`)
 o crear uno nuevo desde cero.
 
-Para crear un nuevo equipo de ventas, ve a la sección :menuselection:`Configuration --> Sales Teams`
+Para crear un nuevo equipo de ventas, ve a la sección :menuselection:`Configuración --> Equipo de Ventas`
 y haz clic en **Crear**.
 
 .. image:: ./media/create01.png
