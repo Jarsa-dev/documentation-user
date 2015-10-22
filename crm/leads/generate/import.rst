@@ -2,88 +2,89 @@
 ¿Cómo importar contactos al CRM?
 ==================================
 
-In Odoo CRM, you can import a database of potential customers, for
-instance for a cold emailing or cold calling campaign, through a CSV
-file. You may be wondering if the best option is to import your contacts
-as leads or opportunities. It depends on your business specificities and
-workflow:
+En Odoo CRM, se puede importar una base de datos de clientes potenciales, 
+por ejemplo para una campaña de llamadas o de correos electrónicos para dar 
+información de la empresa, a través de un archivo CSV. Usted se preguntará 
+si la mejor opción es importar sus contactos como clientes potenciales u 
+oportunidades; depende de sus especificaciones de negocios y flujo de trabajo:
 
--  Some companies may decide to not use leads, but instead to keep all
-   information directly in an opportunity. For some companies, leads
-   are merely an extra step in the sales process. You could call
-   this extended (start from lead) versus simplified (start from
-   opportunity) customer relationship management.
+-  Algunas compañías pueden decidir no usar iniciativas y en su lugar prefieren
+	mantener toda la información directamente en una oportunidad. Para algunas 
+	empresas, clientes potenciales no son más que un paso adicional en el 
+	proceso de venta. Usted podría llamar a esta extensión (comienzo de iniciativa) 
+	contra la simplificación (inicio de la oportunidad) de gestión de relaciones 
+	con los clientes.
 
--  Odoo perfectly allows for either one of these approaches to be
-   chosen. If your company handles its sales from a pre
-   qualification step, feel free to activate first the lead stage as
-   described below in order to import your database as leads
+-  Odoo permite perfectamente que cualquiera de estos enfoques sea seleccionado. 
+	Si su empresa maneja en las ventas un paso precalificación, no dude en activar 
+	primero el escenario principal como se describe a continuación con el fin de 
+	importar la base de datos y las iniciativas.
 
-Activate the lead stage
-=======================
+Activar las etapas de las iniciativas
+=====================================
 
-By default, the lead stage is not activated in Odoo CRM. If you want to
-import your contacts as leads rather than opportunities, go to
-:menuselection:`Configuration --> Settings`, select the option **use leads
-if…** as shown below and click on **Apply**.
+Por defecto, la etapa de la iniciativa no se activa en Odoo CRM. Si desea importar 
+los contactos como iniciativas en lugar de oportunidades, vaya a 
+:menuselection:`Configuración --> Ajustes`, seleccione la opción **Usar iniciativas 
+si** ... como se muestra a continuación y haga clic en **Aplicar**.
 
 .. image:: ./media/import01.jpg
    :align: center
 
-This activation will create a new submenu :menuselection:`Sales --> Leads`
-from which you will be able to import your contacts from the
-**Import** button (if you want to create a lead manually, :doc:`click here <manual>`)
+Esta activación creará un nuevo submenú :menuselectio:`Ventas --> Iniciativas` 
+desde la que se podrá importar sus contactos con el botón **Importar** (si desea 
+crear una iniciativa de forma manual, :doc: haga clic aquí <manual>`)
 
 .. image:: ./media/import02.jpg
    :align: center
 
-Import your CSV file
-====================
+Importar sus archivos CSV
+=========================
 
-On the new submenu :menuselection:`Sales --> Leads`, click on **Import** and select your
-Excel file to import from the **Choose File** button. Make sure its
-extension is **.csv** and don't forget to set up the correct File format
-options (**Encoding** and **Separator**) to match your local
-settings and display your columns properly.
+En el nuevo submenú :menuselection: `Ventas --> Iniciativas`, haga clic en **Importar** 
+y seleccione el archivo de Excel para importar desde el botón **Elegir archivo**. 
+Asegúrese de que su extensión sea .csv y no se olvide de configurar las opciones de 
+formato de los archivos correctamente (**Codificación** y *Separador**) para que 
+coincida con los valores locales y se muestren las columnas correctamente.
 
-.. note::
-	If your prospects database is provided in another format than CSV, you can
-	easily convert it to the CSV format using Microsoft Excel, OpenOffice /
+.. Nota::
+	Si la base de datos a los prospectos se proporciona en otro formato que no sea CSV, 
+	usted puede fácilmente convertir al formato CSV con Microsoft Excel, OpenOffice / 
 	LibreOffice Calc, Google Docs, etc.
 
 .. image:: ./media/import03.jpg
    :align: center
 
-Select rows to import
-=====================
+Seleccionar filas para importar
+===============================
 
-Odoo will automatically map the column headers from your CSV file to the
-corresponding fields if you tick *The first row of the file contains the
-label of the column* option. This makes imports easier especially when
-the file has many columns. Of course, you can remap the column headers
-to describe the property you are importing data into (First Name, Last
-Name, Email, etc.).
+Odoo asignará automáticamente los encabezados de las columnas de su archivo CSV a 
+los campos correspondientes, si se marca *La primera fila del archivo, contiene la 
+etiqueta de la columna* como opción. Esto hace que las importaciones sean más fáciles, 
+especialmente cuando el archivo tiene muchas columnas. Por supuesto, puede reasignar 
+los encabezados de la columna para describir la propiedad que va a importar de datos 
+dentro (Nombre, Apellidos, Correo electrónico, etc.).
 
 .. image:: ./media/import04.jpg
    :align: center
 
-.. tip::
+.. Consejo::
 
-	If you want to import your contacts as opportunities rather than leads, make
-	sure to add the *Type* column to your csv. This column is used to indicate
-	whether your import will be flagged as a Lead (type = Lead) or as an
-	opportunity (type = Opportunity).
+	Si desea importar los contactos como oportunidades en lugar de iniciativas, 
+	asegúrese de añadir la columna *Tipo* en su csv. Esta columna se utiliza para 
+	indicar si al importar se marcará como una iniciativa (tipo = Iniciativa) o 
+	como una oportunidad (tipo = Oportunidad).
 
-Click the **Validate** button if you want to let Odoo verify that
-everything seems okay before importing. Otherwise, you can directly
-click the Import button: the same validations will be done.
+Haga clic en el botón **Validar** si desea dejar a Odoo verificar que todo se 
+encuentre bien antes de importar. De lo contrario, puede hacer clic directamente 
+en el botón Importar: y se realizarán las mismas validaciones.
 
-.. note::
+.. Nota::
 
-	For additional technical information on how to import contacts into Odoo CRM,
-	read the **Frequently Asked Questions** section located below the Import tool
-	on the same window.
-
+	Para obtener información técnica adicional sobre cómo importar contactos en Odoo 
+	CRM, lea la sección de **Preguntas Frecuentes** situada debajo de la herramienta 
+	de Importar en la misma ventana.
+	
 .. seealso::
 
 	- :doc:`manual`
@@ -92,5 +93,6 @@ click the Import button: the same validations will be done.
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Samuel Cabodi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Samuel Cabodi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
