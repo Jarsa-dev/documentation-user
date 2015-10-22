@@ -1,190 +1,196 @@
-======================================
+=============================================
 ¿Cómo generar iniciativas desde mi sitio web?
-======================================
+=============================================
 
-Your website should be your company's first lead generation tool. With
-your website being the central hub of your online marketing campaigns,
-you will naturally drive qualified traffic to feed your pipeline. When a
-prospect lands on your website, your objective is to capture his
-information in order to be able to stay in touch with him and to push
-him further down the sales funnel.
+Su sitio web debe ser la primera herramienta de generación de iniciativas 
+de la empresa. Con el sitio web en el eje central de sus campañas de publicidad 
+en línea, usted va a conducir naturalmente tráfico cualificado para alimentar 
+a su flujo de ventas. Cuando un prospecto cae en el sitio web, su objetivo es 
+capturar la información, con el fin de ser capaz de mantenerse en contacto 
+con él y empujarlo más abajo del canal de ventas.
 
-This is how a typical online lead generation process work :
+De esta manera es el proceso de trabajo de la generación de iniciativas: 
 
--  Your website visitor clicks on a call-to action (CTA) from one of
-   your marketing materials (e.g. an email newsletter, a social
-   media message or a blog post)
+-  Un visitante a su sitio web, hace clic en una llamada de acción (CTA) 
+    desde uno de sus materiales de publicidad (por ejemplo, un boletín electrónico, 
+    un mensaje de los medios de comunicación sociales o una entrada de blog)
 
--  The CTA leads your visitor to a landing page including a form used to
-   collect his personal information (e.g. his name, his email
-   address, his phone number)
+-  La CTA lleva a su visitante a una página de destino que incluye un formulario 
+    que se utiliza para recoger su información personal (por ejemplo, su nombre, 
+    su dirección de correo electrónico, su número de teléfono)
 
--  The visitor submits the form and automatically generates a lead into
-   Odoo CRM
+-  El visitante envía el formulario y automáticamente se genera como iniciativa 
+    en Odoo CRM
 
-.. tip::
+.. Consejo::
 
-	Your calls-to-action, landing pages and forms are the key pieces of the lead
-	generation process. With Odoo Website, you can easily create and optimize
-	those critical elements without having to code or to use third-party
-	applications. Learn more `here <https://www.odoo.com/page/website-builder>`__.
+	Las llamadas de acción, las páginas y formas de destino, son las piezas 
+  clave del proceso de generación de iniciativas. Con el sitio web de Odoo, 
+  usted puede crear fácilmente y optimizar los elementos críticos sin tener 
+  que codificar o utilizar aplicaciones de terceros. Obtenga más información 
+  `aquí <https://www.odoo.com/page/website-builder>`__.
 
-In Odoo, the Website and CRM modules are fully integrated, meaning that
-you can easily generate leads from various ways through your website.
-However, even if you are hosting your website on another CMS, it is
-still possible to fill Odoo CRM with leads generated from your website.
+En Odoo, el sitio web y los módulos de CRM están totalmente integrados, lo que 
+significa que usted puede fácilmente generar clientes potenciales de diversas 
+maneras a través de su sitio web. Sin embargo, incluso si usted es anfitrión de 
+su sitio web en otro CMS, aún así es posible completar los datos que requiere 
+Odoo CRM con clientes potenciales generados desde su sitio web.
 
-Activate the lead stage
-=======================
+Activar las etapas de las iniciativas
+=====================================
 
-By default, the lead stage is not activated in Odoo CRM. Therefore, new
-leads automatically become opportunities. You can easily activate the
-option of adding the lead step. If you want to import your contacts as
-leads rather than opportunities, from the Sales module go to
-:menuselection:`Configuration --> Settings`, select the option **use leads
-if…** as shown below and click on **Apply**.
+Por defecto, la etapa de la iniciativa no se activa en Odoo CRM. Por lo tanto, 
+nuevas iniciativas se convierten automáticamente en oportunidades. Usted puede 
+activar fácilmente la opción de agregar iniciativas. Si desea importar los 
+contactos que tiene como oportunidades, desde el módulo de Ventas ir a 
+:menuselection: `Configuración --> Ajustes`, seleccione la opción **Usar 
+iniciativas si...** como se muestra a continuación y haga clic en **Aplicar**.
 
 .. image:: ./media/website01.jpg
    :align: center
 
-Note that even without activating this step, the information that
-follows is still applicable - the lead generated will land in the
-opportunities dashboard.
+Tenga en cuenta que, incluso sin activar este paso, la información que sigue 
+entrando, todavía es aplicable - la iniciativa generada aterrizará en el tablero 
+de  oportunidades.
 
-From an Odoo Website
-====================
+Desde el sitio web de Odoo
+==========================
 
-Let's assume that you want to get as much information as possible about
-your website visitors. But how could you make sure that every person who
-wants to know more about your company's products and services is
-actually leaving his information somewhere? Thanks to Odoo's integration
-between its CRM and Website modules, you can easily automate your lead
-acquisition process thanks to the **contact form** and the **form builder**
-modules
+Supongamos que desea obtener la mayor cantidad de información posible acerca 
+de cada visita al sitio web. Pero, ¿cómo podría usted asegurarse de que cada 
+persona que quiere saber más sobre los productos y servicios de su empresa, 
+dejará la información en cualquier lugar? Gracias a la integración de Odoo 
+entre sus módulos de CRM y sitios Web, usted puede automatizar fácilmente 
+los procesos de adquisición de iniciativas, gracias a los módulos de **Formulario 
+de Contacto** y **Construcción de Formularios**
 
-.. note::
+.. Nota::
 
-	another great way to generate leads from your Odoo Website is by collecting
-	your visitors email addresses thanks to the Newsletter or Newsletter Popup
-	CTAs. These snippets will create new contacts in your Email Marketing's
-	mailing list. Learn more `here <https://www.odoo.com/page/email-marketing>`__.
+	otra gran manera de generar iniciativas desde el sitio web de Odoo es mediante 
+  la recopilación de direcciones de correo electrónico  de los visitantes gracias 
+  a la Newsletter o Boletín emergente CTA. Estos fragmentos crearán nuevos contactos 
+  en su lista de correo electrónico de publicidad. Obtenga más información 
+  `aquí <https://www.odoo.com/page/email-marketing>`_.
 
-Configuration
+Configuración
 -------------
 
-Start by installing the Website builder module. From the main dashboard,
-click on **Apps**, enter "**Website**" in the search bar and click on **Install**.
-You will be automatically redirected to the web interface.
+Comience por instalar el módulo constructor del sitio web. Desde el panel de 
+control principal, haga clic en **Aplicaciones**, escriba "**Sitio Web**" en 
+la barra de búsqueda y haga clic en **Instalar**. Usted será redirigido 
+automáticamente a la interfaz web.
 
 .. image:: ./media/website02.png
    :align: center
 
-.. tip::
+.. Consejo::
 
-	A tutorial popup will appear on your screen if this is the first time you
-	use Odoo Website. It will help you get started with the tool and you'll be
-	able to use it in minutes. Therefore, we strongly recommend you to use it.
+	Un tutorial emergente aparece en la pantalla si esta es la primera vez que 
+  utiliza el Sitio Web de Odoo. Este le ayudará a iniciar con la herramienta 
+  y usted será capaz de utilizarlo en cuestión de minutos. Por lo tanto, 
+  le recomendamos usarlo.
 
-Create a lead by using the Contact Form module
-----------------------------------------------
+Crear una iniciativa mediante el módulo de Formulario de contacto
+-----------------------------------------------------------------
 
-You can effortlessly generate leads via a contact form on your **Contact
-us** page. To do so, you first need to install the Contact Form module.
-It will add a contact form in your **Contact us** page and automatically
-generate a lead from forms submissions.
+Puede generar iniciativas sin esfuerzo a través de un formulario de contacto 
+en su página de **Contáctanos**. Para ello, primero debe instalar el Módulo 
+de Formulario de Contacto. Se agregará un formulario de contacto en su página 
+de **Contáctanos** y automáticamente se generará una presentación de los 
+formularios de las diferentes iniciativas.
 
-To install it, go back to the backend using the square icon on the
-upper-left corner of your screen. Then, click on **Apps**, enter
-"**Contact Form**" in the search bar (don't forget to remove the **Apps** tag
-otherwise you will not see the module appearing) and click on **Install**.
+Para instalarlo, vuelva a la pantalla de fondo utilizando el icono cuadrado 
+en la esquina superior izquierda. A continuación, haga clic en **Aplicaciones**, 
+escriba "**Formulario de contacto**" en la barra de búsqueda (no se olvide de 
+quitar la etiqueta **Aplicaciones** de otro modo que no verá el módulo) y haga 
+clic en **Instalar**.
 
 .. image:: ./media/website03.png
    :align: center
 
-Once the module is installed, the below contact form will be integrated
-to your "Contact us" page. This form is linked to Odoo CRM, meaning that
-all data entered through the form will be captured by the CRM and will
-create a new lead.
+Una vez instalado el módulo, el siguiente formulario de contacto se integrará 
+a su página "**Contáctanos**". Este formulario está vinculado a Odoo CRM, lo 
+que significa que todos los datos introducidos a través del formulario serán 
+capturados por la CRM y se creará una nueva iniciativa.
 
 .. image:: ./media/website04.jpg
    :align: center
 
-Every lead created through the contact form is accessible in the Sales
-module, by clicking on :menuselection:`Sales --> Leads`. The name of the lead corresponds
-to the "Subject" field on the contact form and all the other information
-is stored in the corresponding fields within the CRM. As a salesperson,
-you can add additional information, convert the lead into an opportunity
-or even directly mark it as Won or Lost.
+Cada iniciativa creada a través del formulario de contacto está disponible 
+en el módulo de Ventas, haciendo clic en :menuselection:`Ventas --> Iniciativas`. 
+El nombre de la iniciativa corresponde al campo "Asunto" en el formulario de 
+contacto y toda la otra información se almacena en los campos correspondientes 
+dentro de la CRM. Como vendedor, usted puede añadir información adicional, 
+convertir la iniciativa en una oportunidad o incluso directamente marcarlo 
+como Ganado o Perdido.
 
 .. image:: ./media/website05.jpg
    :align: center
 
-Create a lead using the Form builder module
--------------------------------------------
+Crear iniciativas usando el módulo de Construcción de Formularios
+-----------------------------------------------------------------
 
-You can create fully-editable custom forms on any landing page on your
-website with the Form Builder snippet. As for the Contact Form module,
-the Form Builder will automatically generate a lead after the visitor
-has completed the form and clicked on the button **Send**.
+Puede crear formularios personalizados totalmente editables en cualquier 
+página de entrada en su sitio web con el fragmento de Forma de construir. 
+En cuanto al módulo de Formulario de contacto, el Constructor de Formularios 
+generará automáticamente una iniciativa después de que el visitante haya 
+completado el formulario y haga clic en el botón **Enviar**.
 
-From the backend, go to Settings and install the
-"**Website Form Builder**" module (don't forget to remove the **Apps** tag
-otherwise you will not see the modules appearing). Then, back on the
-website, go to your desired landing page and click on Edit to access
-the available snippets. The Form Builder snippet lays under the
-**Feature** section.
+Desde el backend, vaya a Configuración e instalar el módulo "**Constructor 
+de Formularios**" (no te olvides de quitar la etiqueta **Aplicaciones** de 
+lo contrario no verán los módulos). Luego, de vuelta en el sitio web, vaya 
+a la página de destino que desee y haga clic en Editar para acceder a los 
+fragmentos disponibles. El fragmento de Constructor de Formularios establece 
+en la sección de **Características**.
 
 .. image:: ./media/website06.png
    :align: center
 
-As soon as you have dropped the snippet where you want the form to
-appear on your page, a **Form Parameters** window will pop up. From the
-**Action** drop-down list, select **Create a lead** to automatically
-create a lead in Odoo CRM. On the **Thank You** field, select the URL of
-the page you want to redirect your visitor after the form being
-submitted (if you don't add any URL, the message "The form has been
-sent successfully" will confirm the submission).
+Tan pronto como se le ha caído el fragmento en el que desea que aparezca el 
+formulario en su página, una ventana de **Parámetros del formulario** aparecerá. 
+En la lista desplegable **Acción**, seleccione **Crear iniciativa** para crear 
+automáticamente una iniciativa en Odoo CRM. En el campo **Gracias**, seleccione 
+la dirección URL de la página que desea redirigir a su visitante después de 
+haber completado la forma (si no agrega ninguna URL, el mensaje "El formulario 
+ha sido enviado con éxito" confirmará la acción).
 
 .. image:: ./media/website07.png
    :align: center
 
-You can then start creating your custom form. To add new fields, click
-on **Select container block** and then on the blue **Customize** button. 3
-options will appear:
+A continuación, puede empezar a crear su formulario personalizado. Para añadir 
+nuevos campos, haga clic en **Seleccione el bloque contenedor** y luego en el 
+botón azul **Personalizar**. Aparecerán 3 opciones:
 
 .. image:: ./media/website08.png
    :align: center
 
-- **Change Form Parameters**: allows you to go back to the Form
-  Parameters and change the configuration
+- **Cambie los parámetros de formulario**: esto le permite ir de nuevo a los 
+  parámetros de formulario y cambiar la configuración
 
-- **Add a model field**: allows you to add a field already existing in
-  Odoo CRM from a drop-down list. For example, if you select the
-  Field *Country*, the value entered by the lead will appear under
-  the *Country* field in the CRM - even if you change the name of
-  the field on the form.
+- **Añadir un campo al modelo**: esto le permite añadir un campo ya existente 
+  en Odoo CRM de una lista desplegable. Por ejemplo, si se selecciona el campo 
+  del *País*, el valor introducido por la iniciativa aparecerá bajo el campo *País* 
+  en el CRM - incluso si se cambia el nombre del campo en el formulario.
 
-- **Add a custom field**: allows you to add extra fields that don't exist
-  by default in Odoo CRM. The values entered will be added under
-  "Notes" within the CRM. You can create any field type : checkbox,
-  radio button, text, decimal number, etc.
+- **Agregar un campo personalizado**: esto le permite añadir campos adicionales 
+  que no existen de forma predeterminada en Odoo CRM. Los valores introducidos 
+  se añadirán en "Notas" en el CRM. Usted puede crear cualquier tipo de campo: 
+  casilla de verificación, botón de radio, texto, número decimal, etc.
 
-Any submitted form will create a lead in the backend.
+Cualquier formulario presentado creará una entrada en la base de datos.
 
-From another CMS 
-=================
+Desde otro CMS 
+==============
 
-If you use Odoo CRM but not Odoo Website, you can still automate your
-online lead generation process using email gateways by editing the
-"Submit" button of any form and replacing the hyperlink by a mailto
-corresponding to your email alias (learn how to create your sales alias
-:doc:`here <emails>`).
+Si utiliza Odoo CRM pero no el sitio web, todavía se puede automatizar el proceso 
+de generación de prospectos en línea utilizando servidores de correo electrónico 
+editando el botón "Enviar" de cualquier forma y reemplazar el hipervínculo por un 
+mailto correspondiente a su nombre de correo electrónico (aprenderá a crear su nombre 
+de ventas :doc:`aquí <emails>`).
 
-For example if the alias of your company is
-**salesEMEA@mycompany.com**, add
-``mailto:salesEMEA@mycompany.com``
-into the regular hyperlink code (CTRL+K) to generate a lead into the
-related sales team in Odoo CRM.
+Por ejemplo, si el nombre de su empresa es **salesEMEA@mycompany.com**, 
+agregue ``mailto: salesEMEA@mycompany.com`` en el código del hipervínculo regular 
+(CTRL+K) para generar una iniciativa en el equipo de ventas relacionadas en Odoo CRM.
 
 .. image:: ./media/website09.png
    :align: center
@@ -197,5 +203,6 @@ related sales team in Odoo CRM.
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Yves-Pascal Mukadi, Samuel Cabodi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Yves-Pascal Mukadi, Samuel Cabodi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
