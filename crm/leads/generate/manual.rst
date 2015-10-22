@@ -2,64 +2,63 @@
 ¿Cómo crear un contacto en el CRM de Odoo?
 ======================================
 
-Odoo CRM allows you to manually add contacts into your pipeline. It can
-be either a lead or an opportunity.
+Odoo CRM le permite añadir manualmente contactos en su flujo de ventas. 
+Puede ser una iniciativa o una oportunidad.
 
-Activate the lead stage
-=======================
+Activar las etapas de las iniciativas
+=====================================
 
-By default, the lead stage is not activated in Odoo CRM. To activate it,
-go to :menuselection:`Configuration --> Settings`, select the option ""use leads
-if…** as shown below and click on **Apply**.
+Por defecto, la etapa de la iniciativa no se activa en Odoo CRM. 
+Para activarlo, vaya a :menuselection:`Configuración --> Ajustes`, seleccione la opción ""use iniciativa si...** como se muestra a continuación y haga clic en **Aplicar**.
 
 .. image:: ./media/manual01.jpg
 	:align: center
 
-This activation will create a new submenu **Leads** under
-**Sales** that gives you access to a list of all your leads from
-which you will be able to create a new contact.
+Esta activación creará un nuevo submenú **Iniciativas** bajo las **Ventas** que 
+le da acceso a una lista de todos sus iniciativas en la cual será capaz de crear 
+un nuevo contacto.
 
 .. image:: ./media/manual02.jpg
 	:align: center
 
 Crear una nueva inciativa
-=================
+=========================
 
-Go to :menuselection:`Sales --> Leads` and click the **Create** button.
+Ir a :menuselection:`Ventas --> Iniciativas` y hacer clic en el botón de **Crear**.
 
 .. image:: ./media/manual03.jpg
 	:align: center
 
-From the contact form, provide all the details in your possession
-(contact name, email, phone, address, etc.) as well as some additional
-information in the **Internal notes** field. You can also link the
-lead to an existing company by editing the**Customer** field. Click
-on save and the contact will be visible as a lead in your pipeline .
+Desde el formato de contacto, se proporcionan todos los detalles que se posean 
+(nombre de contacto, correo electrónico, teléfono, dirección, etc.), así como 
+alguna información adicional en el campo de **Notas Internas**. También se puede 
+vincular la iniciativa con el link a una empresa ya existente editando el campo 
+**CLiente**. Haga clic en Guardar y el contacto será visible como una iniciativa 
+en su flujo de ventas.
 
-.. note::
+.. Nota::
 
-	your lead can be directly handed over to specific sales team and salesperson
-	by clicking on **Convert to Opportunity** on the upper left corner of the screen.
+	su iniciativa está vinculada directamente a un equipo de ventas específico o a 
+	un vendedor, haga clic en el botón **Convertir a Oportunidad** en la esquina 
+	superior izquierda de la pantalla. 
 
 Crear una nueva Oportunidad
-========================
+También se puede añadir directamente un contacto a un equipo de ventas específico 
+sin tener que convertir la iniciativa en primer lugar. En el módulo de Ventas, 
+vaya a su panel de control y haga clic en el botón de **Flujo de trabajo** del 
+equipo de ventas deseado. Si usted no tiene ningún equipo de ventas aún, 
+:doc:`es necesario crearlo primero <../../salesteam/setup/create_team>`. 
+A continuación, haga clic en **Crear** y llenar los datos del contacto como se 
+muestra arriba. Por defecto, la oportunidad recién creada aparecerá en la primera 
+etapa de su proceso de ventas.
 
-You can also directly add a contact into a specific sales team without
-having to convert the lead first. On the Sales module, go to your
-dashboard and click on the **Pipeline** button of the desired sales
-team. If you don't have any sales team yet, :doc:`you need to create one first <../../salesteam/setup/create_team>`.
-Then, click on **Create** and fill in the contact details as shown here
-above. By default, the newly created opportunity will appear on the
-first stage of your sales pipeline.
-
-Another way to create an opportunity is by adding it directly on a
-specific stage. For example, if you have have spoken to Mr. Smith at a
-meeting and you want to send him a quotation right away, you can add his
-contact details on the fly directly into the **Proposition** stage. From
-the Kanban view of your sales team, just click on the **+** icon
-at the right of your stage to create the contact. The new opportunity
-will then pop up into the corresponding stage and you can then fill in
-the contact details by clicking on it.
+Otra forma de crear una oportunidad es añadiéndolo directamente en una etapa específica. 
+Por ejemplo, si usted tiene en el historial que habló con el Sr. Smith en una reunión y 
+desea que envié una cita de inmediato, usted puede agregar los datos del contacto 
+directamente en la etapa de la **Propuesta**. Desde el punto de vista de Kanban de 
+su equipo de ventas, simplemente haga clic en el icono **+** a la derecha del tablero, 
+para crear el contacto. Entonces, la nueva oportunidad aparecerá en la etapa correspondiente 
+y, a continuación, puede completar los datos de contacto haciendo clic en él.
 
 .. image:: ./media/manual04.png
 	:align: center
@@ -74,5 +73,6 @@ the contact details by clicking on it.
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Yves-Pascal Mukadi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Yves-Pascal Mukadi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
