@@ -185,6 +185,8 @@ Pestaña de Configuración
 - **Entregas**
 	- **Métodos de entregas**: esto ayuda a tener un registro de los proveedores de servicio de entregas de mercancías, así como para tener el control de cada entrega según su tamaño, peso y cantidad; dependiendo de las últimas opciones se hace la elección del mejor candidato. 
 
+| Escrito por Alejandra Escandón (Jarsa)
+
 
 
 
