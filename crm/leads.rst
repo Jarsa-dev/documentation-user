@@ -1,6 +1,6 @@
-=====
+====================
 Clientes Potenciales
-=====
+====================
 
 .. toctree::
    :titlesonly:
