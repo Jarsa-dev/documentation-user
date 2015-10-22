@@ -2,22 +2,24 @@
 ¿Cómo generar un cliente potencial desde un correo recibido?
 ============================================================
 
-There are several ways for your company to :doc:`generate leads with Odoo CRM <manual>`.
-One of them is using your company's generic email address as a trigger
-to create a new lead in the system. In Odoo, each one of your sales
-teams is linked to its own email address from which prospects can reach
-them. For example, if the personal email address of your Direct team is
-**direct@mycompany.example.com**, every email sent will automatically create a new
-opportunity into the sales team. Hola 
+Hay varias maneras para que su empresa pueda :doc:`generar clientes potenciales
+con Odoo CRM <manual>` Uno de ellos es el uso de correo electrónico genérico
+de su empresa como un disparador para crear una nueva pista en el sistema.
+En Odoo, cada uno de sus equipos de ventas está vinculado a su propia dirección
+de correo electrónico desde que las perspectivas pueden llegar a ellos. Por ejemplo,
+si la dirección de correo electrónico personal de su equipo de directo es
+direct@mycompany.example.com, cada correo electrónico enviado creará
+automáticamente una nueva oportunidad en el equipo de ventas.
 
 Configuración
 =============
 
-The first thing you need to do is to configure your **outgoing email
-servers** and **incoming email gateway** from the :menuselection:`Settings module --> General Settings`.
+Lo primero que necesita hacer es configurar **los servidores de correo electrónico salientes**
+y **el correo electrónico de entrada** desde el :menuselection:`Módulo Ajustes -->
+Configuración General`.
 
-Then set up your alias domain from the field shown here below and
-click on **Apply**.
+Luego configurar el nombre del dominio en el campo se muestra a continuación y
+haga clic en **Aplicar**.
 
 .. image:: ./media/emails01.jpg
    :align: center
@@ -25,39 +27,39 @@ click on **Apply**.
 Crear un alias de equipo
 =================
 
-Go on the Sales module and click on **Dashboard**. You will see that the
-activation of your domain alias has generated a default email alias for
-your existing sales teams.
+Vaya al módulo de ventas y haga clic en **Panel de control**. Usted verá que la activación
+del nombre de su dominio ha generado un nombre de correo electrónico predeterminado para
+sus equipos de ventas existentes.
 
 .. image:: ./media/emails02.jpg
    :align: center
 
-You can easily personalize your sales teams aliases. Click on the More
-button from the sales team of your choice, then on **Settings** to access
-the sales team form. From the **Email Alias** field, enter your email
-alias and click on **Save**. Make sure to allow receiving emails from
-everyone.
+Usted puede personalizar fácilmente los nombres de sus equipos de ventas. Haga clic en
+el botón Más del equipo de ventas de su elección, luego en **Configuración** para acceder
+al formulario del equipo de ventas. Desde el campo **Nombre de correo electrónico**, escriba
+su nombre de correo electrónico y haga clic en **Guardar**. Asegúrese de dejar de recibir
+correos electrónicos de todo el mundo.
 
-From there, each email sent to this email address will generate a new
-lead into the related sales team.
+A partir de ahí, cada correo electrónico enviado a esta dirección, generará una nueva
+iniciativa en el equipo de ventas relacionadas.
 
 .. image:: ./media/emails03.jpg
    :align: center
 
-Configurar Set up catch-all email domain
-=============================
+Configurar un dominio de correo catch-all
+=========================================
 
-Additionally to your sales team aliases, you can also create a generic
-email alias (e.g. *contact@* or *info@* ) that will also generate a new
-contact in Odoo CRM. Still from the Sales module, go to
-:menuselection:`Configuration --> Settings` and set up your catch-all email domain.
+Adicionalmente al nombre del equipo de ventas, también puede crear un nombre de
+correo electrónico genérico (por ejemplo, *contacto@* o *info@*), que también va a
+generar un nuevo contacto en Odoo CRM. Después, desde el módulo de ventas, vaya a 
+:menuselection:`Configuración --> Ajustes` y configure su dominio de correo carch-all.
 
-.. tip::
+.. Consejo::
 
-	You can choose whether the contacts generated from your catch-all email
-	become leads or opportunities using the radio buttons that you see on the
-	screenshot here below. Note that, by default, the lead stage is not
-	activated in Odoo CRM.
+	Usted puede elegir si los contactos generados a partir del correo catch-all se convierten
+	en clientes potenciales u oportunidades utilizando los botones de radio que se ve en la
+	captura de pantalla a continuación. Tenga en cuenta que, por defecto, la etapa de la
+	iniciativa no se activa en Odoo CRM.
 
 .. image:: ./media/emails04.jpg
    :align: center
@@ -70,5 +72,6 @@ contact in Odoo CRM. Still from the Sales module, go to
 
 .. rst-class:: text-muted
 
-| Written by Geoffrey Bressan (Odoo)
-| Proofread by Samuel Cabodi (Odoo)
+| Escrito por Geoffrey Bressan (Odoo)
+| Revisado por Samuel Cabodi (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
