@@ -1,130 +1,123 @@
-===================================================================
-How to manage multiple offers from suppliers with purchase tenders?
-===================================================================
+===================================================================================
+Cómo gestionar múltiples ofertas de los proveedores con las solicitudes de compras?
+===================================================================================
 
-A **Purchase Tender** (PT), also known as Call for Bids, is used to
-drive competition between several suppliers in order to get the best
-offer for a list of products. In comparison to the RfQ, a Purchase
-Tender is sent to multiple suppliers, stating each are competing with
-one another, and that the best offer will win. The main interest is that
-it usually leads to better offers.
+Una **Solicitud de Compras** (PT), también conocido como Convocatoria, se utiliza 
+para impulsar la competencia entre varios proveedores con el fin de obtener la mejor 
+oferta para una lista de productos. En comparación con los RfQ, una solicitud de 
+compras se envía a múltiples proveedores, indicando si cada uno compiten entre sí, 
+y cual es la mejor oferta para ganar. El interés principal, por lo general conduce 
+a mejores ofertas.
 
-For more information on best uses, please read the chapter :doc:`../../overview/difference`
+Para obtener más información sobre el mejor uso, por favor lea el capítulo :doc:`../../overview/difference`
 
-Configuration
+Configuración
 =============
 
-Activating the Purchase Tender function
----------------------------------------
+Activar la función de Solicitudes de Compras
+--------------------------------------------
 
-By default, the Purchase Tender is not activated. To be able to use PTs,
-you must first activate the option.
+Por defecto, la Solicitud de Compra no está activada. Para poder utilizar los PT, 
+primero debe activar la opción.
 
-In the Purchases module, open the Configuration menu and click on
-Settings. In the Purchase Order section, locate the **Calls for
-Tenders** and tick the box Allow using call for tenders… (advanced),
-then click on **Apply**.
+En el módulo de Compras, abra el menú de Configuración y haga clic en Ajustes. 
+En la sección de Órdenes de compra, localizar las solicitudes y marque la casilla **Permitir el uso de solicitudes** ... (avanzado) y, a continuación, haga clic en **Aplicar**.
 
 .. image:: ./media/image16.png
 	:align: center
 
-Creating a Purchase Tender
---------------------------
+Crear una Solicitud de Compra
+-----------------------------
 
-To create a new Purchase Tender, open :menuselection:`Purchase --> Purchase Tenders`.
+Para crear una nueva Solicitud de Compra, abra :menuselection:`Compras --> Solicitudes de Compras`.
 
 .. image:: ./media/image19.png
 	:align: center
 
-In the Purchase Tenders window, click on **Create**. A new Purchase Tenders
-window opens.
+En la ventana de Solicitudes de Compra, haga clic en **Crear**. Se abrirá una nueva ventana de Solicitudes de Compra.
 
-By default, Odoo names PTs "TEXXXXX" but you can change it as you like.
+Por defecto, el nombre que le asigna Odoo a una PT es "TEXXXXX" pero se puede cambiar si así usted lo desea. 
 
 .. image:: ./media/image21.png
 	:align: center
 
-In the **Responsible** field, you can select the person who will be in
-charge of the PT.
+En el campo **Responsable**, puede seleccionar a la persona que estará a cargo de la PT.
 
-In the **Tender Selection Type** menu, you can decide to:
+En el menú **Tipo de Solicitud de Compra**, puede decidir:
 
-- select only one RfQ and automatically cancel all other bid: *Select only one RFQ (exclusive)*
+- seleccionar sólo una RfQ y automáticamente se cancelará el resto de las ofertas: 
+*Seleccione sólo una RFQ (exclusiva)*
 
-- allow multiple purchase orders for this PT: *Select multiple RFQ*
+- permitir que varias órdenes de compra para la PT: *Seleccione múltiple RFQ*
 
-Tick in the box **Multiple RFQ per vendor** if you wish to allow
-suppliers to send in more than one Request for Quotation.
+Marque en el cuadro **Múltiples proveedores de RFQ** si desea permitir que los 
+proveedores envíen más de una solicitud de cotización.
 
 .. image:: ./media/image18.png
 	:align: center
 
-In the **Tender Closing Deadline** field, select the date to bids are
-closed for suppliers.
+En el campo **Fecha límite del cierre de Solicitudes**, seleccione la fecha de 
+las ofertas que están cerradas para los proveedores.
 
-In the **Scheduled Ordering Date** field, select the date to which you
-will place the order.
+En el campo **Programar fechas de Órdenes**, seleccione la fecha en que desea 
+colocar el pedido.
 
-In the **Scheduled Date** field, select the date to which the products
-should be delivered.
+En el campo **Fecha programada**, seleccione la fecha en que los productos 
+deben ser entregados.
 
-In the **Source Document** field, you can insert a previous PO to use as
-a template.
+En el campo **Origen de documento**, puede insertar una PO anterior y como plantilla.
 
 .. image:: ./media/image15.png
 	:align: center
 
-In the Products section, click on **Add an item**.
+En la sección de Productos, haga clic en **Agregar un elemento**.
 
-Select the product in the **Product** list, then insert **Quantity**.
-You can add as many products as you wish.
+Seleccione el producto en **Lista de Productos**, y después en insertar **Cantidad**. 
+Puede agregar tantos productos como desee.
 
 .. image:: ./media/image04.png
 	:align: center
 
-Click on **Save**, then on **Confirm Call**. Two new RFQs/Bids and Request a
-Quotation tabs have appeared on the right side of the window.
+Haga clic en **Guardar** y después en **Confirmar llamadas**. Dos nuevas ventanas de 
+RFQ y Solicitudes han aparecido de lado derecho de la pantalla.
 
 .. image:: ./media/image17.png
 	:align: center
 
-Click on **Request a Quotation** and type in the names of the suppliers you
-wish to include in the PT, then click on **Create Request for Quotation**.
+Haga clic en **Solicitar una Cotización** y escriba los nombres de los proveedores 
+que desea incluir en la PT, después haga clic en **Crear solicitud de cotización**.
 
 .. image:: ./media/image12.png
 	:align: center
 
-A list of suppliers has appeared in the **Requests for Quotation**
-section.
+La lista de proveedores aparecerá en la sección de **Requesiciones de Cotizaciones**
 
 .. image:: ./media/image09.png
 	:align: center
 
-To send the RfQs to your suppliers, click on the green V icon. You can
-also review the RfQ before sending them by clicking on them.
+Para enviar las RFQ a losproveedores, haga clic en el icono V verde. También puede 
+revisar los RfQ antes de enviarlos haciendo clic sobre ellos.
 
-When you receive offers, click on the RFQs/Bids tab. In the list view,
-select the company and click on **Edit** to adapt the details as stated in
-the offer.
+Cuando reciba ofertas, haga clic en la ficha RFQ. En la vista de lista, seleccione 
+la empresa y haga clic en Editar para adaptar los datos como se indica en la oferta.
 
 .. image:: ./media/image20.png
 	:align: center
 
-When you have edited all the corresponding fields, click on **Save**.
+Cuando haya editado todos los campos correspondientes, haga clic en **Guardar**.
 
-When the deadline has been reached, click on **Close Call for Tenders**. The
-status of the PT is now **Bid Selection**. Open the RFQs/Bids tab and open
-the RfQ(s) you wish to proceed with.
+Cuando se ha alcanzado la fecha límite, haga clic en **Cerrar Solicitud**. El estado 
+de la PT ahora a pasado a la **Selección de subastas**. Abra el RFQ que desea usar. 
 
 .. image:: ./media/image14.png
 	:align: center
 
-Click on **Approve Order** to convert the RfQ into a Purchase Order, the go
-back to your PT and click on **Done** to close the PT.
+Haga clic en **Aprobar Orden** para convertir la RfQ en una Orden de Compra, al volver 
+a la PT, haga clic en **Listo** para cerrar la PT.
 
 .. demo:action:: purchase_requisition.action_purchase_requisition
 
-   View *Purchase Tenders* in our Online Demonstration
+   Vea *Solicitudes de Compras* en la demostración de Odoo en línea.
 
 .. seealso:: 
 
@@ -134,5 +127,6 @@ back to your PT and click on **Done** to close the PT.
 
 .. rst-class:: text-muted
 
-| Written by Samuel Cabodi (Odoo)
-| Proofread by Geoffrey Bressan (Odoo)
+| Escrito por Samuel Cabodi (Odoo)
+| Revisado por Geoffrey Bressan (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
