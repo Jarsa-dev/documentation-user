@@ -1,6 +1,6 @@
-=========
-Purchases
-=========
+=======
+Compras
+=======
 
 .. toctree::
    :titlesonly:
