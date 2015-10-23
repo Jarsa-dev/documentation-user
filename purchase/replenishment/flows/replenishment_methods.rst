@@ -1,4 +1,4 @@
 =======================================================
-What are the available automated replenishment methods?
+¿Cuáles son los métodos de reabastecimiento automatizados disponibles?
 =======================================================
 
