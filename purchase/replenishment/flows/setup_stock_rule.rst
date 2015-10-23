@@ -119,6 +119,7 @@ En la sección **Tiempo de Entrega**, puede introducir
 
 -  el número de día(s) para la compra: corresponden al número de días para 
 que el proveedor reciba la orden
+
 -  el número de día(s) para obtener los productos
 
 .. Consejo:: Por defecto, los plazos de entrega son en días naturales. 
