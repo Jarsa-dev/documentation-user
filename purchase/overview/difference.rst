@@ -1,91 +1,86 @@
-=========================================================
-Request for Quotation, Purchase Tender or Purchase Order?
-=========================================================
+===============================================================
+Solicitud de Cotización, Propuesta de Compra u Orden de Compra?
+===============================================================
 
-Although they are intimately related, Requests for Quotation, Purchase
-Tenders and Purchase Orders are not the same.
+A pesar de que están íntimamente relacionados, las solicitudes de cotización, 
+las ofertas de compra y órdenes de compra no son las mismas.
 
-A **Request for Quotation** (RfQ) is used when you plan to purchase
-some products and you would like to receive a quote for those
-products. In Odoo, the Request for Quotation is used to send your list
-of desired products to your supplier. Once your supplier has answered
-your request, you can choose to go ahead with the offer and purchase
-or to turn down the offer.
+Una **Solicitud de Cotización** (RFQ) se utiliza cuando se va a comprar algunos 
+productos y le gustaría recibir un presupuesto para esos productos. En Odoo, 
+la solicitud de cotización se utiliza para enviar la lista de productos deseados 
+a su proveedor. Una vez que el proveedor ha respondido a su solicitud, puede optar 
+por seguir adelante con la oferta y la compra o para rechazar la oferta.
 
-A **Purchase Tender** (PT), also known as Call for Bids, is used to
-drive competition between several suppliers in order to get the best
-offer for a list of products. In comparison to the RfQ, a Purchase
-Tender is sent to multiple suppliers, stating each are competing with
-one another, and that the best offer will win. The main interest is that
-it usually leads to better offers.
+Una **Propuesta de Compra** (PT), también conocida como Convocatoria, se 
+utiliza para impulsar la competencia entre varios proveedores con el fin de 
+obtener la mejor oferta para una lista de productos. En comparación con los RfQ, 
+una propuesta de compra se envía a múltiples proveedores, indicando si cada uno 
+compiten entre sí, y cual es la mejor oferta para ganar. El interés principal, 
+por lo general conduce a mejores ofertas.
 
-The **Purchase Order** (PO) is the actual order that you place to the
-supplier that you chose, either through a RfQ, a Purchase Tender, or
-simply when you already know which supplier to order from.
+Las **Órdenes de Compra** (PO) son órdenes actuales que colocan al proveedor que 
+se haya elegido, ya sea a través de un RfQ (una solicitud de compra) o simplemente 
+cuando usted ya conoce qué proveedor está en la orden 
 
-When to use?
-============
+Cuándo usarlo?
+==============
 
-A **RfQ** is interesting when you have never purchased the products with
-that supplier before and therefore don't know their price. It is also
-useful if you want to challenge your suppliers once you have a
-well-established relationship with them. You can also use it to assess
-the cost of a project and see if it makes it feasible.
+Un **RfQ** es interesante cuando usted no ha comprado antes productos con ese 
+proveedor, y por lo tanto no sabe su precio. También es útil si se quiere desafiar 
+a sus proveedores una vez que se tenga una relación bien establecida con ellos. 
+También se puede utilizar para evaluar el costo de un proyecto y ver si se hace factible.
 
-A **Purchase Tender** is used for public offers that require an open
-offering from several suppliers. It is also useful when you need to make
-a one-off order for a product and you would like to get the best offer,
-no matter which supplier it is. It may be used when your supplier has
-not been up to your standards and you would like to either push them to
-deliver a better service, or find a replacement in their competitors.
+Una **Propuesta de Compra** se utiliza para las ofertas públicas que requieren 
+una oferta abierta de varios proveedores. También es útil cuando se necesita 
+para hacer una orden de una sola vez para un producto y desea obtener la mejor 
+oferta, no importa qué proveedor sea. Se puede utilizar cuando el proveedor no 
+ha llegado hasta sus estándares y le gustaría empujarlos para ofrecer un mejor 
+servicio, o encontrar un reemplazo en sus competidores.
 
-When not to use?
-================
+Cuándo no usarlo?
+=================
 
-**RfQ**\ s become unnecessary once you have established your favorite
-supplier for each item, and will only increase the delay in the delivery
-of your items. In that case, the process will be simpler by starting
-straight from a Purchase Order.
+**RfQ**\ se vuelven innecesarias una vez que se haya establecido el proveedor 
+preferido de cada artículo, y sólo aumentará el retraso en la entrega de sus 
+artículos. En ese caso, el proceso será más sencillo partiendo directamente 
+de una Orden de Compra.
 
-**Purchase Tenders** are a long and tedious process that will likely
-take more than several weeks in the best cases. If you need a quick
-delivery, this is not the way to go. Also, if you have a
-well-established relationship with one supplier, think twice before you
-initiate a PT with them as it might tear the relationship and finally
-lead to less interesting deals.
+**Propuestas de compras** son un proceso largo y tedioso que es probable que 
+tome varias semanas, en el mejor de los casos. Si necesita una entrega rápida, 
+este no es el camino a seguir. Además, si usted tiene una relación bien establecida 
+con un proveedor, piense dos veces antes de iniciar un PT con ellos, ya que podría 
+romper la relación y, finalmente, dar lugar a ofertas menos interesantes.
 
-Example
-=======
+Ejemplo
 
-My company builds wooden furniture. For the new series of table we are
-designing, we need some screws, metal frames and rubber protections.
 
-I create a Request for Quotation in Odoo with those products to my usual
-supplier, and send it by email. He answers back with an offer. However,
-I am not convinced by the offer, and I want to see if anyone can give a
-better one.
+Mi empresa construye muebles de madera. Para la nueva serie de mesas que estamos 
+diseñando, necesitamos algunos tornillos, marcos metálicos y protecciones de goma.
 
-I decide to push competition a bit and set up a Purchase Tender, that
-Odoo will send to a list of suppliers I specified. Out of the 8 offers I
-receive, one gets my attention and I decide to go ahead with that one.
+Puedo crear una Solicitud de Cotización en Odoo con estos productos a mi proveedor 
+habitual, y enviarlo por correo electrónico. Él responde con una oferta. Sin embargo, 
+no estoy convencido por la oferta, y quiero ver si alguien puede dar una mejor.
 
-I confirm the order to the supplier by creating a Purchase Order from
-the PT, and Odoo automatically asks delivery of the items to the
-supplier.
+Decido empujar la competencia un poco y configurar una Propuesta de Compras, que 
+Odoo enviará a una lista de proveedores con las características especificas. De 
+las 8 ofertas que recibo, uno tiene mi atención y decide seguir adelante con eso.
 
-Configuration
+Confirmo el pedido al proveedor mediante la creación de una Orden de Compra del PT, 
+y me pregunta Odoo automáticamente la entrega de los artículos con el proveedor.
+
+Configuración
 =============
 
-If you want to know how to create a **Purchase Order**, read the
-documentation on :doc:`from_po_to_invoice`
+Si desea conocer acerca de cómo crear una **Orden de Compra**, lea el 
+documento :doc:`from_po_to_invoice`
 
-If you want to know how to create a **RfQ**, read the documentation
-on :doc:`../purchases/rfq/create`
+Si desea conocer acerca de cómo crear un **RfQ**, lea el documento :doc:`../purchases/rfq/create`
 
-If you want to know how to create a **Purchase Tender**, read the
-documentation on :doc:`../purchases/tender/manage_multiple_offers`
+Si desea conocer acerca de cómo crear una **Propuesta de Compra**, lea el documento :doc:`../purchases/tender/manage_multiple_offers`
 
 .. rst-class:: text-muted
 
-| Written by Samuel Cabodi (Odoo)
-| Proofread by Geoffrey Bressan (Odoo)
+| Escrito por Samuel Cabodi (Odoo)
+| Revisado por Geoffrey Bressan (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
+
