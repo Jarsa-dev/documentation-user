@@ -1,95 +1,99 @@
-==================================
-How to setup a minimum stock rule?
-==================================
+==================================================
+¿Cómo configurar una regla de almacenamiento manualmente?
+==================================================
 
-For some items you hold in stock, it might be useful to have rules
-making sure you never run out of stocks (for example, products with a
-high demand, or large items requiring a lot of storage space meaning
-they're harder to stock).
+Para algunos artículos considerados en almacenamiento, puede ser útil 
+contar con reglas para asegurarse de que nunca se quede sin existencias 
+(por ejemplo, los productos con una alta demanda, o artículos de gran 
+tamaño que requieren una gran cantidad de espacio de almacenamiento es 
+decir donde es más difícil el almacenamiento).
 
-Odoo allows you to set up rules so that an automatic replenishment for
-those items is made, based on minimum stocks available.
+Odoo le permite configurar reglas para que se haga una reposición automática 
+para esos artículos, en base a las existencias mínimas disponibles.
 
-When should I use Reordering Rules?
-===================================
+¿Cuándo se debe utilizar el reordenar las reglas?
+=================================================
 
-Reordering Rules work best for items that have a high demand and high
-flow. It will relieve you from a lot of work to focus on the rest of
-your activities knowing that stocks will always be right.
+Reordenar las reglas funciona mejor para los artículos que tienen una 
+alta demanda y un alto flujo. Se le exime de un montón de trabajo para 
+centrarse en el resto de sus actividades a sabiendas de que las acciones 
+siempre estarán bien.
 
-It can also be used when you have limited storage space and you need to
-keep large items in stock. In this case, you can keep as little as 1
-item in stock, and have a new one ordered as a stock replenishment as
-soon as the item in stock is sold.
+También puede ser utilizado cuando se tiene espacio de almacenamiento 
+limitado y donde se necesita mantener los artículos grandes en almacenamiento. 
+En este caso, se pueden mantener tan poco como 1 artículo almacenado, y se 
+tiene una nueva ordenada, como la reposición en el artículo de la acción se vende.
 
-When should I avoid Reordering Rules?
-=====================================
+¿Cuándo debo evitar reordenar las reglas?
+=========================================
 
-If you are offering a new product and don't know yet how fast it will
-go, you should handle stocks yourself first, and setup reordering rules
-only a few months into the sale to have better forecasts of the demand.
+Si usted está ofreciendo un producto nuevo y no sabe aún qué tan rápido 
+se va a vender, usted debe utilizar primero almacenamiento propio, y la 
+configuración de la reordenación de reglas sólo unos meses después de la 
+venta para tener mejores previsiones de la demanda.
 
-If you sell items that have a limited lifetime, such as fashion items,
-technology items, or products working together with a system that is
-meant to evolve, you have to be very well informed on when to stop
-automated replenishments, in order to avoid having to sell these items
-at a price that will not allow you to break even.
+Si usted vende los artículos que tienen una vida útil limitada, tales 
+como artículos de moda, artículos de tecnología, o productos de trabajo 
+junto con un sistema que está destinado a evolucionar, tiene que estar 
+muy bien informado sobre cuándo dejar las reposiciones automatizadas, 
+con el fin de evitar tener que vender estos artículos a un precio que 
+no permita el punto de equilibrio.
 
-Example
+Ejemplo
 =======
 
-My company sells modern furniture. We sell a set of table and chairs
-that are available in 4 seatings and 6 seatings.
+Mi empresa vende muebles modernos. Vendemos un conjunto de mesa y 
+sillas que están disponibles en 4 asientos y 6 asientos.
 
-To keep things simple, we stock tables and chairs separately, but sell
-them all together to our clients as a kit. In order to make sure we can
-always deliver a complete set of table and chairs, I setup a Reordering
-Rule for the chairs to make sure I always have at least 10 chairs in
-stock, but no more than 20. This way, I can sell up to 5 sets of table
-at once while keeping my stock low enough not to eat up all my storage
-space.
+Para simplificar las cosas, tenemos en almacenamiento mesas y sillas 
+por separado, pero vendemos a todos nuestros clientes las piezas juntas, 
+como un conjunto. Con el fin de asegurarse de que siempre se puede ofrecer 
+un completo conjunto de mesa y sillas, se puede configurar una regla de 
+Reordenación de las sillas para asegurarse de que siempre se tenga al 
+menos 10 sillas en bodega, pero no más de 20. De esta manera, puedo vender 
+hasta 5 juegos de mesa a la vez, manteniendo mis acciones lo suficientemente 
+bajas como para no desperdiciar todo mi espacio de almacenamiento.
 
-The last table I sold was a 4 seatings, and there were 12 chairs left in
-my stock. Because the stock in chairs is now only 8 chairs, Odoo will
-automatically order 12 new chairs to fill up my stock to the maximum
-amount.
+La última mesa que vendí era una de 4 asientos, y había 12 sillas que 
+quedaban almacenadas. Debido a que las acciones de las sillas es ahora 
+de sólo 8 sillas, Odoo ordenará automáticamente 12 sillas nuevas para 
+llenar mi bodega a la cantidad máxima.
 
-Configuration
+Configuración
 =============
 
-Set up your product
--------------------
+Configure su producto
+---------------------
 
-In the Purchases module, open the Purchase menu and click on Products.
-Open the product to which you would like to add a Reordering Rule (or
-create a new one).
+En el módulo de Compras, abra el menú de Compras y haga clic en Productos. 
+Abra el producto al que desea agregar una regla de Reordenamiento (o crear uno nuevo).
 
-3 conditions for correct reordering rule :
+1. En :menuselection:`Información General --> Tipo de Productos`, hacer el 
+almacenamiento del producto (tan pronto como sea posible, aparecerá el icono 
+de "Reordenación de regla")
+2. En :menuselection:`Inventario --> ruta`, marque la casilla "Comprar" (y 
+desmarque la casilla Hacer una Orden)
+3. Seleccionar un vendedor (no olvide poner una cantidad mínima superior a 0)
 
-1. In :menuselection:`General information --> Product type`, make the product
-   stockable (as soon as this is done, the icon "Reordering rule will appear)
-2. In :menuselection:`Inventory --> route`, tick the "Buy" box (and untick the
-   Make To Order box)
-3. Select a vendor (don't forget to put a minimal quantity greater than 0)
+Crear una Regla de Reordenamiento
+---------------------------------
 
-Create a reordering rule
-------------------------
-
-Click on the Reordering Rules tab, click on Create. A new page opens.
+Haga clic en la ficha Reordenar las Reglas, después haga clic en Crear. 
+Se abrirá una nueva página.
 
 .. image:: media/setup01.png
   :align: center
 
-By default, Reordering Rules in Odoo are named as "OP/XXXXX" but you are
-free to use any nomenclature. You can modify it via the **Name** field.
+Por defecto, el Reordenamiento de Reglas en Odoo aparecerá con el nombre 
+de "OP/XXXXX", pero usted puede usar cualquier nomenclatura. Usted puede 
+modificar el archivo mediante **Nombre**.
 
-The **Product** field is the product you are creating the rule for.
+El archivo **Producto** se creará mediante la regla hecha. 
 
-Select the warehouse to which the product should be delivered in the
-**Warehouse** field.
+Seleccione el almacén donde el producto debe ser entregado en el campo **Almacén**.
 
-If you have configured multiple warehouses and location, specify the
-location in which the product will be stored in the **Location** field.
+Si ha configurado varios almacenes y ubicación, especifiqué la ubicación en 
+la que el producto se almacenará en el campo **Ubicación**.
 
 .. seealso::
 
@@ -99,41 +103,39 @@ location in which the product will be stored in the **Location** field.
 .. image:: media/setup02.png
   :align: center
 
-In the **Minimum Quantity** field, insert the quantity to which the
-system will trigger a new order for replenishment.
+En el campo *+Cantidad Mínima**, introduzca la cantidad a la que el sistema 
+activará un nuevo orden para la reposición.
 
-In the **Maximum Quantity** field, insert the maximum of items that has
-to be stocked. The replenishing order will be based on that quantity to
-reorder.
+En el campo **Cantidad Máxima**, introduzca el máximo de elementos que tiene 
+que ser abastecido. La orden de reposición se basa en que la cantidad de reordenar.
 
-The **Quantity Multiple** is the lowest number of items that can be
-ordered at once. For instance, some items may be only available for
-purchase in a set of 2.
+La **Múltilple Cantidad** es el menor número de artículos que se pueden pedir a 
+la vez. Por ejemplo, algunos artículos pueden sólo estar disponibles para su 
+compra en un conjunto de 2.
 
-In the Misc section, the **Active** box allows you to activate or
-deactivate the rule.
+En la sección Miscelánea, la sección **Activo** le permite activar o desactivar la regla.
 
-In the **Lead Time** section, you can enter:
+En la sección **Tiempo de Entrega**, puede introducir
 
--  the number of Day(s) to purchase: correspond to the number of days
-   for the supplier to receive the order
--  the number of Day(s) to get the products
+-  el número de día(s) para la compra: corresponden al número de días para 
+que el proveedor reciba la orden
+-  el número de día(s) para obtener los productos
 
-.. tip:: By default, the lead times are in calendar days. You can change that
-         in :menuselection:`Inventory --> Configuration --> Settings --> Minimum Stock Rules`
+.. Consejo:: Por defecto, los plazos de entrega son en días naturales. 
+        Usted puede cambiar eso en :menuselection:`Inventario --> Configuración --> 
+        Ajustes --> Reglas de Mínimos`
 
-When you have entered all the info, click on Save.
+Cuando haya introducido toda la información, haga clic en Guardar.
 
-From now on, every time a product with a reordering rule reaches the
-minimum stock, the system will automatically send a RfQ to your supplier
-based on your maximum quantity to replenish your stock.
+A partir de ahora, cada vez que un producto con una regla de reordenamiento alcance 
+las existencias mínimas, el sistema enviará automáticamente un RfQ a su proveedor 
+basado en su cantidad máxima para reponer sus existencias.
 
-.. tip:: The replenishments will take place when the scheduler in the Inventory
-         module runs. By default in Odoo, the schedulers will run every night at
-         12:00PM.
+.. Consejo:: Las reposiciones se llevarán a cabo cuando el planificador en el módulo 
+        de inventario se ejecute. Por defecto en Odoo, los cambios se ejecutarán todas las noches a las 12:00 PM.
 
-         To know how to configure and run the schedulers manually, read the
-         document on :doc:`../../../inventory/management/miscellaneous/schedulers`
+          Para saber cómo configurar y ejecutar los cambios de forma manual, 
+          consulte el documento :doc:`../../../inventory/management/miscellaneous/schedulers`
 
 .. seealso::
   
@@ -143,5 +145,6 @@ based on your maximum quantity to replenish your stock.
 
 .. rst-class:: text-muted
 
-| Written by Samuel Cabodi (Odoo)
-| Proofread by Geoffrey Bressan (Odoo)
+| Escrito por Samuel Cabodi (Odoo)
+| Revisado por Geoffrey Bressan (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)

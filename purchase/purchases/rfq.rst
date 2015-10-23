@@ -1,6 +1,6 @@
-========================
-Request for Quotatations
-========================
+=================================
+Requesiciones de las Cotizaciones
+=================================
 
 .. toctree::
    :titlesonly:

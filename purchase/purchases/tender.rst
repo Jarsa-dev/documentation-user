@@ -1,6 +1,6 @@
-================
-Purchase Tenders
-================
+===========================
+Solicitudes de Cotizaciones
+===========================
 
 .. toctree::
    :titlesonly:
