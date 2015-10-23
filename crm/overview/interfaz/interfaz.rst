@@ -118,46 +118,46 @@ Ventas
 
 Clientes
 --------
-aquí se verán reflejados todos los clientes que tengas registrados en el sistema, se mostrarán de forma de lista o con la vista Kanban. Al dar acceder a alguno, este desplegará la ficha técnica del mismo, con todos los datos que se tengan del mismo. Así como la oportunidad que se tiene con él, como las citas programadas y todas las notas que crean el historial desde el primer día. 
+Aquí se verán reflejados todos los clientes que tengas registrados en el sistema, se mostrarán de forma de lista o con la vista Kanban. Al dar acceder a alguno, este desplegará la ficha técnica del mismo, con todos los datos que se tengan del mismo. Así como la oportunidad que se tiene con él, como las citas programadas y todas las notas que crean el historial desde el primer día. 
 
 Tu flujo de ventas
 ------------------
-esta es otra entrada para ver el flujo de trabajo, aquí se mostrarán los estados de cada venta y su historial en una vista de Kanban, se acomodarán los procesos según las necesidades de la empresa. 
+Esta es otra entrada para ver el flujo de trabajo, aquí se mostrarán los estados de cada venta y su historial en una vista de Kanban, se acomodarán los procesos según las necesidades de la empresa. 
 
 Actividad siguiente 
 -------------------
-al acceder a la misma, se hará un listado de todos los pendientes que tienes, puedes usar los filtros para saber cuales son tuyos y cuales son los de tu equipo de trabajo. Estos se acomodan por orden de importancia, tan prioridad por fechas y por cantidades. 
+Al acceder a la misma, se hará un listado de todos los pendientes que tienes, puedes usar los filtros para saber cuales son tuyos y cuales son los de tu equipo de trabajo. Estos se acomodan por orden de importancia, tan prioridad por fechas y por cantidades. 
 
 Llamadas
 --------
-se hace un historial de todas las llamadas que se hagan con los clientes, se pueden añadir notas y poner el estado en el que se encuentran como por hacer, o retenida para saber de donde partir cada vez que se ingrese, teniendo un buen registro de todo. 
+Se hace un historial de todas las llamadas que se hagan con los clientes, se pueden añadir notas y poner el estado en el que se encuentran como por hacer, o retenida para saber de donde partir cada vez que se ingrese, teniendo un buen registro de todo. 
 
 Citas 
 -----
-están anotadas las citas programadas, junto con el historial del cliente y las órdenes de compra que se tienen registradas. 
+Están anotadas las citas programadas, junto con el historial del cliente y las órdenes de compra que se tienen registradas. 
 
 Orden de ventas 
 ---------------
-son todas las órdenes que envío el usuario, y aquí muestra el estado de la misma, si está por facturar o ya se facturó. Muestra un registro detallado para no perder el estado del cliente. 
+Son todas las órdenes que envío el usuario, y aquí muestra el estado de la misma, si está por facturar o ya se facturó. Muestra un registro detallado para no perder el estado del cliente. 
 
 Productos
 --------- 
-aquí están registrados todos los productos de la empresa. Cada uno cuenta con una ficha técnica la cual es modificable según los términos de la empresa, de esta manera se puede hacer que el producto esté muy detallado y ajustado a las necesidades de la empresa para su identificación rápida. 
+Aquí están registrados todos los productos de la empresa. Cada uno cuenta con una ficha técnica la cual es modificable según los términos de la empresa, de esta manera se puede hacer que el producto esté muy detallado y ajustado a las necesidades de la empresa para su identificación rápida. 
 
 Variante de productos 
 ---------------------
-todas las variantes y opciones que tiene cada producto.
+Todas las variantes y opciones que tiene cada producto.
 
 Facturación
 ===========
 
 Facturas de ventas 
 ------------------
-aquí se muestran todas las facturas que están por facturar, dando detalles de fecha, cliente y estatus de la misma. 
+Aquí se muestran todas las facturas que están por facturar, dando detalles de fecha, cliente y estatus de la misma. 
 
 Órdenes para aumentar las ventas
 -------------------------------- 
-son las ventas registradas, mostrando sus facturas hechas o por hacer, para poder darles un mejor seguimiento. 
+Son las ventas registradas, mostrando sus facturas hechas o por hacer, para poder darles un mejor seguimiento. 
 
 Después de la Venta
 ===================
@@ -174,38 +174,38 @@ Reglas de puntuación
 
 Asignación de iniciativas 
 -------------------------
-según el usuario, está descrito sus responsabilidades y clientes a su cargo, así como la venta que tiene que hacer ya sea directa o indirecta; también el número que iniciativas que tiene como meta. 
+Según el usuario, está descrito sus responsabilidades y clientes a su cargo, así como la venta que tiene que hacer ya sea directa o indirecta; también el número que iniciativas que tiene como meta. 
 
 Asignación de equipos de trabajo
 --------------------------------
-aquí se muestran los tipos de ventas que se pueden hacer, estos son designados por la empresa según su proceso de venta; pueden ser directas, indirectas o por el sitio web, por mencionar algunas. Así mismo, en cada equipo, se mostrará a los integrantes del equipo y su meta del mes. 
+Aquí se muestran los tipos de ventas que se pueden hacer, estos son designados por la empresa según su proceso de venta; pueden ser directas, indirectas o por el sitio web, por mencionar algunas. Así mismo, en cada equipo, se mostrará a los integrantes del equipo y su meta del mes. 
 
 Reportes
 ========
 
 Flujo de trabajos 
 -----------------
-este es un análisis del flujo de trabajo, mostrando en números como es el avance y dando un reporte del mismo. En este se pueden utilizar filtros según el reporte que se necesita. Este reporte puede ser imprimido o descargado como documento de excel para facilitar el manejo de la información.
+Este es un análisis del flujo de trabajo, mostrando en números como es el avance y dando un reporte del mismo. En este se pueden utilizar filtros según el reporte que se necesita. Este reporte puede ser imprimido o descargado como documento de excel para facilitar el manejo de la información.
 
 Actividades 
 -----------
-análisis de todas las actividades que se han hecho al mes, de esta manera se puede hacer una comparación y ver únicamente lo que se necesita.
+Análisis de todas las actividades que se han hecho al mes, de esta manera se puede hacer una comparación y ver únicamente lo que se necesita.
 
 Ventas 
 ------
-muestra un análisis de las ventas realizadas, donde las desglosa por su asignación, ya sea directa, indirecta o por la página web
+Muestra un análisis de las ventas realizadas, donde las desglosa por su asignación, ya sea directa, indirecta o por la página web
 
 Reclamaciones 
 -------------
-análisis de todas las reclamaciones según su tipo, en proceso, arreglado o rechazado. Esto ayudará a tener un mayor registro y control sobre este tema. 
+Análisis de todas las reclamaciones según su tipo, en proceso, arreglado o rechazado. Esto ayudará a tener un mayor registro y control sobre este tema. 
 
 Llamadas telefónicas
 --------------------
-aparte de registrar la cantidad de llamadas que se hicieron, también registra la duración de cada una. 
+Aparte de registrar la cantidad de llamadas que se hicieron, también registra la duración de cada una. 
 
 Asignación de análisis 
 ----------------------
-se muestra el análisis de las ventas, mostrando su negociación, si está ganada, la calificación que obtiene según los términos de la empresa. 
+Se muestra el análisis de las ventas, mostrando su negociación, si está ganada, la calificación que obtiene según los términos de la empresa. 
 
 Asociaciones
 ------------
@@ -218,7 +218,7 @@ Configuración
 
 Ajustes
 -------
-aquí se muestra toda la parte técnica de la configuración donde se puede añadir los términos que se quieren ver en cada parte, así como las condiciones según los usuarios. 
+Aquí se muestra toda la parte técnica de la configuración donde se puede añadir los términos que se quieren ver en cada parte, así como las condiciones según los usuarios. 
 
 Ventas
 ------
@@ -242,7 +242,7 @@ Iniciativas y oportunidades
 
 Equipos de ventas 
 -----------------
-se hace la configuración de cada equipo que se tenga, los integrantes, permisos, metas, entre otras cosas. 
+Se hace la configuración de cada equipo que se tenga, los integrantes, permisos, metas, entre otras cosas. 
 
 Entregas
 --------
