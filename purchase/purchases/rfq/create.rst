@@ -1,71 +1,64 @@
-======================================
-How to create a Request for Quotation?
-======================================
+========================================
+¿Cómo crear una Solicitud de Cotización?
+========================================
 
-A Request for Quotation (RfQ) is used when you plan to purchase some
-products and you would like to receive a quote for those products. In
-Odoo, the Request for Quotation is used to send your list of desired
-products to your supplier. Once your supplier has answered your request,
-you can choose to go ahead with the offer and purchase or to turn down
-the offer.
+Una Solicitud de Cotización (RfQ) se utiliza cuando se va a comprar 
+algunos productos y le gustaría recibir un presupuesto para esos productos. 
+En Odoo, la solicitud de cotización se utiliza para enviar una lista de 
+productos deseados a su proveedor. Una vez que el proveedor ha respondido 
+a su solicitud, puede optar por seguir adelante con la oferta y la compra 
+o rechazar la oferta.
 
-For more information on best uses, please read the chapter :doc:`../../overview/difference`
+Para obtener más información sobre el mejor uso, por favor lea el capítulo :doc:`../../overview/difference`
 
-Configuration
+Configuracións
 =============
 
-Creating a Request for Quotation
---------------------------------
+Creación de una Solicitud de Cotización
+---------------------------------------
 
-In the Purchases module, open :menuselection:`Purchase --> Requests for Quotation`
-and click on **Create**.
+En el módulo de Compras, abra el menú :menuselection:`Compras --> Solicitud de Cotización`
+y haga clic en **Crear**.
 
 .. image:: ./media/image04.png
 	:align: center
 
-Select your supplier in the **Vendor** menu, or create it on-the-fly by
-clicking on **Create and Edit**. In the **Order Date** field, select
-the date to which you wish to proceed to the actual order.
+Seleccione a su proveedor en el menú de **Proveedor**, o puede crearlo en la marcha, 
+haga clic en **Crear y Editar**. En el campo **Fecha de pedido**, seleccione la fecha 
+en la que desea continuar con el orden real.
 
 .. demo:fields:: purchase.purchase_rfq
 
 .. demo:action:: purchase.purchase_rfq
 
-   View *Request for Quotation* in our Online Demonstration
+   Vista de la *Solicitud de Cotización* en la demostración en línea
 
-In **Products**, click on Add an item. Select the product you wish to order
-in the **Product** menu. Specify the **Quantity** by inserting the
-number and selecting the unit of measure. In the **Unit Price** field,
-specify the price you would like to be offered (you can also leave the
-field blank if you don't know what the price should be) , and add the
-expected delivery date in the Scheduled Date field. Click on **Save**, then
-**Print Rfq** or **Send Rfq by email** (make sure an email address is specified
-for this supplier or enter a new one).
-
-
+En los **Productos**, haga clic en Agregar un elemento. Seleccione el producto 
+que desea ordenar en el menú **Producto**. Especifique la **Cantidad** insertando 
+el número y la selección de la unidad de medida. En el campo **Precio por unidad**, 
+especifique el precio que le gustaría ofrecer (también se puede dejar en blanco si 
+no sabe cual precio debería ser), y añadir la fecha de entrega prevista en el campo 
+**Fecha programada**. Haga clic en **Guardar** y, a continuación, **Imprimir Rfq**, 
+o **Enviar Rfq por correo electrónico**, (asegúrese de que la dirección de correo 
+electrónico sea especifica para este proveedor o introduzca uno nuevo.
 
 .. image:: ./media/image08.png
 	:align: center
 
-After having clicked on **Send**, you will notice that the RFQ's status will
-switch from **Draft** to **RFQ Sent**.
+Después de haber hecho clic en **Enviar**, usted se dará cuenta de que el estado 
+de la petición de oferta pasará de **Borrador** a **RFQ enviados**.
 
 .. image:: ./media/image06.png
 	:align: center
 
-Once your supplier has replied with an offer, update the RfQ by clicking
-on **Edit** to fit the quotation (prices, taxes, expected delivery lead
-time, payment terms, etc.), then click on **Save** to issue a Purchase
-Order.
+Una vez que el proveedor ha respondido con la oferta, se deben actualizar los RfQ haciendo clic en **Editar** para adaptarse a la cotización (precios, impuestos, plazo de entrega previsto, condiciones de pago, etc.), a continuación, haga clic en **Guardar** para emitir una Orden de Compra.
 
-To proceed with the order, click on **Confirm Order** to send the order to
-the supplier. The RfQ's status will switch to **Purchase Order**.
+Para continuar con la orden, haga clic en **Confirmar Orden** para enviar el pedido al proveedor. El estado del RfQ cambiará a **Orden de Compra**.
 
 .. image:: ./media/image11.png
 	:align: center
 
-The status of the RfQ will change to PURCHASE ORDER. Tabs in the upper
-right corner of the order will show 1 Shipment and 0 Invoice.
+El estado de la RfQ cambiará a la ORDEN DE COMPRA. En la esquina superior derecha de la orden se mostrarán 1 Envío y 0 Facturas.
 
 .. image:: ./media/image10.png
 	:align: center
@@ -76,5 +69,6 @@ right corner of the order will show 1 Shipment and 0 Invoice.
 
 .. rst-class:: text-muted
 
-| Written by Samuel Cabodi (Odoo)
-| Proofread by Geoffrey Bressan (Odoo)
+| Escrito por Samuel Cabodi (Odoo)
+| Revisado por Geoffrey Bressan (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)
