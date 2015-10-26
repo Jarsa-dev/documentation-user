@@ -53,7 +53,6 @@ romper la relación y, finalmente, dar lugar a ofertas menos interesantes.
 
 Ejemplo
 
-
 Mi empresa construye muebles de madera. Para la nueva serie de mesas que estamos 
 diseñando, necesitamos algunos tornillos, marcos metálicos y protecciones de goma.
 

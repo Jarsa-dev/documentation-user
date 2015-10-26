@@ -43,6 +43,7 @@ en su flujo de ventas.
 	superior izquierda de la pantalla. 
 
 Crear una nueva Oportunidad
+
 También se puede añadir directamente un contacto a un equipo de ventas específico 
 sin tener que convertir la iniciativa en primer lugar. En el módulo de Ventas, 
 vaya a su panel de control y haga clic en el botón de **Flujo de trabajo** del 
