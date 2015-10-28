@@ -1,6 +1,6 @@
-======================================
+==========================================
 ¿Cómo crear un contacto en el CRM de Odoo?
-======================================
+==========================================
 
 Odoo CRM le permite añadir manualmente contactos en su flujo de ventas. 
 Puede ser una iniciativa o una oportunidad.

@@ -1,8 +1,8 @@
 :banner: banners/pos.jpg
 
-=============
-Point of Sale
-=============
+==============
+Punto de Venta
+==============
 
 .. toctree::
    :titlesonly:

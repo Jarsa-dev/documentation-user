@@ -1,8 +1,8 @@
 :banner: banners/purchase.jpg
 
-========
+=======
 Compras
-========
+=======
 
 .. toctree::
    :titlesonly:

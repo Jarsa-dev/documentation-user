@@ -1,6 +1,6 @@
-==================================================
+=========================================================
 ¿Cómo configurar una regla de almacenamiento manualmente?
-==================================================
+=========================================================
 
 Para algunos artículos considerados en almacenamiento, puede ser útil 
 contar con reglas para asegurarse de que nunca se quede sin existencias 

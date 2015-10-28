@@ -1,6 +1,6 @@
-==================================
+================================
 ¿Cómo importar contactos al CRM?
-==================================
+================================
 
 En Odoo CRM, se puede importar una base de datos de clientes potenciales, 
 por ejemplo para una campaña de llamadas o de correos electrónicos para dar 

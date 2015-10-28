@@ -1,6 +1,6 @@
-=======================
-Documentación de usuario para Odoo V9
-=======================
+================================
+Documentación de usuario Odoo V9
+================================
 
 .. rst-class:: index-tree
 

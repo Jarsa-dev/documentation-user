@@ -1,8 +1,8 @@
 :banner: banners/crm.jpg
 
-===
-CRM
-===
+============
+CRM y Ventas
+============
 
 .. toctree::
    :titlesonly:

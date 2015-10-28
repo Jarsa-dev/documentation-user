@@ -1,6 +1,6 @@
-========
+===================
 Información general
-========
+===================
 
 .. toctree::
    :titlesonly:

@@ -1,6 +1,6 @@
-======================================================================
+=======================================================================
 ¿Cómo configurar los equipos, el proceso y los objetivos de las ventas?
-======================================================================
+=======================================================================
 
 Esta guía rápida paso a paso los guiará a través Odoo CRM y les ayudará a manejar
 y canalizar sus ventas fácil y constantemente, administrando las ventas de inciativas

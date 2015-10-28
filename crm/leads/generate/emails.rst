@@ -25,7 +25,7 @@ haga clic en **Aplicar**.
    :align: center
 
 Crear un alias de equipo
-=================
+========================
 
 Vaya al módulo de ventas y haga clic en **Panel de control**. Usted verá que la activación
 del nombre de su dominio ha generado un nombre de correo electrónico predeterminado para

@@ -1,6 +1,6 @@
-========================================================================================
+=================================================================================================
 Automatice la asignación de iniciativas a los equipos de ventas o vendedores específicos
-========================================================================================
+=================================================================================================
 
 Dependiendo del flujo de trabajo y las necesidades de su empresa, usted necesita 
 enviar a sus iniciativas entrantes a diferentes equipos de ventas o incluso 
