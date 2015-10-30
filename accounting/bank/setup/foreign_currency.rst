@@ -1,117 +1,110 @@
-===========================================
-How to manage a bank in a foreign currency?
-===========================================
+=====================================================
+¿Cómo administrar un banco con una moneda extranjera?
+=====================================================
 
-In Odoo, every transaction is recorded in the default currency of the
-company. Reports are all based on the currency of the company. But for
-transactions occurring in another currency, Odoo stores both the value
-in the currency of the company and the value in the currency of the
-transaction.
+En Odoo, cada transacción se registra en la moneda base de la compañía. Los 
+informes se basan en la moneda que tiene registarda la empresa. Pero para las 
+transacciones que ocurren en otra moneda, Odoo almacenará el valor de la moneda 
+de la empresa y el valor en la moneda de la transacción.
 
-When you have a bank account in a foreign currencies, for every
-transaction, Odoo stores two values:
+Cuando usted tiene una cuenta bancaria en una moneda extranjera, por cada transacción, 
+almacenará los dos valores:
 
--  The debit/credit in the currency of the company
+-   La tarjeta de débito o de crédito en la moneda de la compañía
 
--  The debit/credit in the currency of the bank account
+-   La tarjeta de débito o de crédito en la moneda de la cuenta bancaria
 
-Currency rates are updated automatically using yahoo.com, or the
-European Central bank web-services.
+Los tipos de cambio se actualizan automáticamente usando yahoo.com, o los servicios 
+web del Banco Central Europeo.
 
-Configuration
+Configuración
 =============
 
-Activate the multi-currency feature
------------------------------------
+Activar la función multi-moneda
+-------------------------------
 
-In order to allow your company to work with multiple currencies, you
-should activate the multi-currency mode. In the accounting application,
-go into :menuselection:`Configuration --> Settings --> Accounting & Finance Features`
-make sure the **Allow Multi-currencies** box is ticked. Provide
-a **Currency Exchange Gain / Loss** account, then click on **Apply**.
+Con el fin de permitir que su empresa pueda trabajar con múltiples monedas, debe 
+activar el modo multi-moneda. En la aplicación de la contabilidad, ir a 
+:menuselection:`Configuración --> Ajustes --> Características de Contabilidad y 
+Finanzas` y haga que la casilla **Permitir Multi-divisas** esté marcada. Proporcione 
+una Cuenta de **Ganancia o Pérdida**, después haga clic en **Aplicar**.
 
-Configure currencies
---------------------
+Configure monedas
+-----------------
 
-Once the Odoo is configured to support multiple currencies, you should
-activate the currencies you plan to work with. To do that, go the menu
-:menuselection:`Configuration --> Currencies`. All the currencies are created by default,
-but you should activate the ones you plan to support. (to activate a
-currency, check his active field)
+Una vez que el Odoo está configurado para soportar múltiples divisas, usted debe activar 
+las monedas que planea trabajar. Para ello, vaya a :menuselection:`Configuración --> Monedas`. 
+Todas las monedas se crean de forma predeterminada, pero usted debe activar las que desea 
+utilizar. (para activar una moneda, compruebe su campo activo)
 
-After having activated the currencies, you can configure the parameters
-to automate the currency rate update. These options are also in the
-settings of the Accounting application, in the bottom of the page:
+Después de haber activado las monedas que desea, puede configurar los parámetros para 
+automatizar la actualización de tipos de cambio. Estas opciones también se encuentran 
+en la configuración de la aplicación de Contabilidad, en la parte inferior de la página:
 
 .. image:: media/foreign01.png
    :align: center
 
-Click on the **Update Now** link to update the currency rates now.
+Haga clic en el enlace **Actualizar Ahora** para actualizar los tipos de cambio ahora.
 
-Create a new bank account
--------------------------
+Crear una nueva cuenta bancaria
+-------------------------------
 
-In the accounting application, we first go to :menuselection:`Configuration -->
-Accounting / Bank account`, and we create a new one.
+En la aplicación de Contabilidad, debe ir primero a :menuselection:`Configuración -->
+Contabilidad/ Cuentas bancarias`, y crear una nueva.
 
 .. image:: media/foreign02.png
    :align: center
 
-Once you save this bank account, Odoo will create all the documents for
-you:
+Una vez que se ha guardado la cuenta bancaria, Odoo creará todos los documentos necesarios: 
 
-- An account in the trial balance
+- Una cuenta en el balance general
 
-- A journal in your dashboard
+- Una cuenta en el tablero
 
-- Information about the bank account in the footer of your invoices if
-  checked the box **Show in Invoices Footer**
+- Información sobre la cuenta bancaria en el pie de página de sus facturas si está 
+activada la casilla **Facturas de Pie de Página**
 
-Example: A vendor bill in a foreign currency
-============================================
+Ejemplo: Una factura de proveedor en moneda extranjera
+======================================================
 
-Based on the above example, let's assume we receive the following bill
-from a supplier in China.
+Basado en el ejemplo anterior, supongamos que recibimos la siguiente factura de un 
+proveedor en China.
 
-In the :menuselection:`Purchase --> Vendor Bills` , this is what you could see:
+En la :menuselection:`Compras --> Facturas de proveedores`, esto es lo que se podrá ver:
 
 .. image:: media/foreign03.png
    :align: center
 
-Once you are ready to pay this bill, click on register payment on the
-bill to record a payment.
+Una vez que esté listo para pagar esta cuenta, haga clic en el pago de registro en 
+la factura para grabar un pago.
 
 .. image:: media/foreign04.png
    :align: center
 
-That's all you have to do. Odoo will automatically post the foreign
-exchange gain or loss at the reconciliation of the payment with the
-invoice, depending if the currency rate increased or decreased between
-the invoice and the payment date.
+Eso es todo lo que se tiene que hacer. Odoo publicará automáticamente la ganancia o 
+pérdida cambiando la conciliación del pago en la factura, dependiendo de si el tipo 
+de cambio aumenta o disminuye entre la factura y la fecha de pago.
 
-Note that you can pay a foreign bill with another currency. In such a
-case, Odoo will automatically convert between the two currencies.
+Tenga en cuenta que usted puede pagar una factura extranjera con otra moneda. 
+En tal caso, Odoo convertirá automáticamente entre os valores de las dos monedas.
 
-Customers Statements
-====================
+Declaraciones de clientes
+=========================
 
-Customers and vendor statements are managed in the currency of the
-invoice. So, the amount due by your customer (to your vendor) is always
-expressed in the currency of the invoice.
+Los clientes y las declaraciones de los proveedores se gestionan en la moneda de 
+la factura. Por lo tanto, la cantidad en deuda por el cliente (a su proveedor) 
+siempre se expresa en la moneda de la factura.
 
-If you have several invoices with different currencies for the same
-customer, Odoo will split the customer statement by currency, as shown
-in the report below.
+Si tiene varias facturas con diferentes monedas para el mismo cliente, Odoo dividirá las 
+declaraciones por cliente en tipo de moneda, como se muestra en el informe a continuación.
 
 .. image:: media/foreign05.png
    :align: center
 
-In the above report, the account receivable associated to Camptocamp is
-not managed in a secondary currency, which means that it keeps every
-transaction in his own currency. If you prefer, you can set the account
-receivable of this customer with a secondary currency and all his debts
-will automatically be converted in this currency.
+En el informe anterior, la cuenta asociada por cobrar  a Camptocamp no se gestiona en una moneda secundaria, lo que significa que mantiene cada transacción en su propia moneda. Si lo prefiere, puede configurar la cuenta por cobrar de este cliente con una moneda secundaria y todas sus deudas se convertirán automáticamente en esta moneda.
 
-In such a case, the customer statement always has only one currency. In
-general, this is not what the customer expect as he prefers to see the
-amounts in the currency of the invoices he received;
+En tal caso, la declaración del cliente siempre tendrá sólo una moneda. En general, esto 
+no es lo que espera el cliente, ya que él preferirá ver los importes en la moneda de las 
+facturas que recibió;
+
+| Traducción por Alejandra Escandón (Jarsa)
