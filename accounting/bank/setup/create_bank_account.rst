@@ -1,42 +1,40 @@
-Set up your new bank account
-============================
+====================================
+Configurar una nueva cuenta bancaria
+====================================
 
-In Odoo, you can manage multiple bank accounts. In this page, you will
-be guided in the creation, modification or deletion of a bank or a
-credit card account.
+En Odoo, se pueden administrar varias cuentas bancarias. En esta página, se le guiará 
+en la creación, modificación o eliminación de un banco o de una tarjeta de crédito.
 
-Go to the list of your bank accounts
-------------------------------------
+Ir a la lista de sus cuentas bancarias
+--------------------------------------
 
-Go to :menuselection:`Configuration --> Settings --> Configure your company bank
-accounts` >
-The bank accounts are configured on the company information. You have to
-be in the edit mode to be able to do your changes.
+Ir a :menuselection:`Configuración --> Ajustes --> Configurar su cuenta bancaria` >
+Las cuentas bancarias estarán configuradas en la información de la empresa. Necesita entrar al modo de edición para configurar y generar los cambios necesarios. 
 
 .. image:: media/image10.png
    :align: center
 
-.. note::
+.. Nota::
 
-	If you are working in a multi-company environnement, you have to switch company to add, edit or delete bank accounts on another company.
+	Si está trabajando en un entorno de multi-empresa, se debe de cambiar de empresa para agregar, editar o eliminar las cuentas bancarias de otras. 
 
-Add or edit a bank account
---------------------------
+Añadir o editar cuentas bancarias
+---------------------------------
 
-Click on **Add an item** to add a new bank account. If you want to edit one, simply click on the line.
+Da clic en **Añadir artículo** para añadir una nueva cuenta bancaria. Si desea editar alguna, simplemente de clic en el. 
 
 .. image:: media/image03.png
    :align: center
 
-.. note::
+.. Nota::
 	
-	If the bank account type is IBAN, Odoo will check if the number is valid
+	Si la cuenta bancaria es de tipo IBAN, Odoo revisará que el número sea válidos.
 
 .. demo:fields:: base.action_res_partner_bank_account_form
 
 .. demo:action:: base.action_res_partner_bank_account_form
 
-   View *Bank Account* in our Online Demonstration
+   Ver *Cuentas Bancarias* en la demostración en línea.
 
 .. todo:: add inherited field tooltip
 
@@ -47,18 +45,21 @@ Click on **Add an item** to add a new bank account. If you want to edit one, sim
 	order to send automated payments quickly and accurately to the banks
 	concerned
 
-The initial balance of a bank statement will be set to the closing balance of the previous one within the same journal automatically.
+El saldo inicial de una cuenta bancaria se establecerá en el saldo final de la anterior 
+en el mismo diario automáticamente.
 
-As you may notice in the journal form, a dedicated account has been generated automatically at the bank account creation.
+Como se puede reflejar en forma de diario, la cuenta especial que se ha generado 
+de forma automática al crear una cuenta bancaria.
 
-Delete a bank account or credit card account
---------------------------------------------
+Eliminar una cuenta bancaria o cuenta de tarjeta de crédito
+-----------------------------------------------------------
 
-Click on the trashcan icon |image5| in the list of your bank accounts to remove one bank account.
+Haga clic en el icono de la papelera |image5| en la lista de sus cuentas bancarias se removerá la cuenta bancaria.
 
 .. |image5| image:: media/image13.png
 	:class: btn-group
 
 .. rst-class:: text-muted
 
-| Written by Benjamin Stiens (Odoo)
+| Escrito por Benjamin Stiens (Odoo)
+| Traducción por Alejandra Escandón (Jarsa)

@@ -1,6 +1,6 @@
-=====
-Setup
-=====
+=============
+Configuración
+=============
 
 .. toctree::
    :titlesonly:

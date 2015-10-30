@@ -1,6 +1,6 @@
-===================
-Bank Reconciliation
-===================
+=====================
+Conciliación Bancaria
+=====================
 
 .. toctree::
    :titlesonly:
