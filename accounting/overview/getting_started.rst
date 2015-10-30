@@ -1,6 +1,6 @@
-===============
-Getting Started
-===============
+=========
+Empezando
+=========
 
 .. toctree::
    :titlesonly:

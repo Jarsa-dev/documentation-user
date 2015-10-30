@@ -1,6 +1,6 @@
-=============
-Main Concepts
-=============
+=====================
+Principales Conceptos
+=====================
 
 .. toctree::
    :titlesonly:

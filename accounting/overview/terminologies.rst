@@ -1,6 +1,6 @@
-========================
-Accounting Terminologies
-========================
+============================
+Terminología de Contabilidad
+============================
 
 .. glossary::
 
