@@ -1,62 +1,54 @@
-==============================
-How to manage a cash register?
-==============================
+======================================
+¿Cómo manejar el registro de efectivo?
+======================================
 
-The cash register is a journal to register receivings and payments transactions.
-It calculates the total money in and out, computing the total balance.
+El registro de efectivo es un diario para registrar las transacciones de ingresos y pagos. 
+Calcula el total de dinero dentro y fuera, el cálculo del saldo total.
 
-Configuration
+Configuración
 =============
 
 .. image:: ./media/journal.png
    :align: center
 
-1. Configure the Cash journal in :menuselection:`Accounting --> Configuration --> 
-   Journals`.
+1. Congigure los diarios de Efectivo en :menuselection:`Contabilidad --> Configuración --> 
+   Diarios`.
 
-2. In the tab Journal Entries, the Default Debit and Credit Account can be
-   configured as well as the currency of the journal
-
+2. En la table de Diarios de Entrada, las cuentas de Débito y Crédito predeterminadas se pueden configurar, así como el diario de la moneda. 
 
 .. demo:fields:: account.action_account_journal_form
 
+Manejo
+======
 
-Usage
-=====
+¿Cómo registrar pagos en efectivo?
+----------------------------------
 
-How to register cash payments?
-------------------------------
+Para registrar pagos en efectivo de un cliente específico a otro, es necesario seguir los siguientes pasos:
 
-To register a cash payment specific to another customer, you should follow
-these steps:
+1. Ir a :menuselection:`Contabilidad--> Tablero --> Efectivo --> Registro de Transacciones`
 
-1. Go to :menuselection:`Accounting --> Dashboard --> Cash --> Register
-   Transactions`
+2. Marcar el saldo inicial y final
 
-2. Fill in the start and ending balance
+3. Registrar las transacciones, especificando los clientes vinculados a la transacción
 
-3. Register the transactions, specifying the customers linked to the transaction
+Poner dinero en
+---------------
 
-Put money in
-------------
-
-Put money in is used to placed your cash manually before starting your
-transactions. From the Register Transactions window, go to :menuselection:`More
---> Put money in`
+Poner dinero en, se utiliza para colocar el dinero en efectivo de forma manual antes de empezar a hacer transacciones. Desde la ventana de Registro de Transacciones, vaya a :menuselection:`Más --> Poner dinero en`
 
 .. image:: ./media/put-money-in.png
    :align: center
 
-Take money out
---------------
+Tomar dinero
+------------
 
-Take money out is used to collect/get yor your cash manually after
-ending all your transactions. From the Register Transaction windows, go to :menuselection:`More
---> Take money out`
+Tomar dinero, es usado para colectar o extraer dinero en efectivo manualmente al terminar las transacciones hechas. Desde la ventana de Registro de Transacciones, ir a :menuselection:`Más --> Tomar dinero`
 
 .. image:: ./media/put-money-out.png
    :align: center
 
-The transactions will be added to the current cash payment registration.
+Las transacciones se añadirán al registro de pago en efectivo actual. 
 
-| Written by Vasanth Ajay
+| Escrito por Vasanth Ajay
+| Traducción por Alejandra Escandón (Jarsa)
