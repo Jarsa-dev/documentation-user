@@ -1,6 +1,6 @@
-===================
-Account Receivables
-===================
+==================
+Cuentas por cobrar
+==================
 
 .. toctree::
    :titlesonly:

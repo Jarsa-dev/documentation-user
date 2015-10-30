@@ -1,6 +1,6 @@
-================
-Account Payables
-================
+=================
+Cuentas por pagar
+=================
 
 .. toctree::
    :titlesonly:

@@ -1,60 +1,59 @@
-========================
-Manage Your Fixed Assets
-========================
+============================
+Administre sus activos fijos
+============================
 
-The "Assets" module allows you to keep track of your fixed assets like
-machinery, land and building. The module allows you to generate monthly
-depreciation entries automatically, get depreciation board, sell or
-dispose assets and perform reports on your company assets.
+El módulo "Activos" le permite mantener un registro de sus activos fijos, 
+como maquinaria, terrenos y edificios. El módulo permite generar entradas de 
+depreciación mensuales automáticamente, junta toda la depreciación, vende o 
+enajena los activos y realizar informes sobre los activos de la compañía.
 
-As an example, you may buy a car for $36,000 (gross value) and you plan
-to amortize it over 36 months (3 years). Every months (periodicity),
-Odoo will create a depreciation entry automatically reducing your assets
-value by $1,000 and passing $1,000 as an expense. After 3 years, this
-assets accounts for $0 (salvage value) in your balance sheet.
+A modo de ejemplo, puede comprar un coche por $ 36.000 (valor bruto) y planea la 
+amortización de acuerdo a 36 meses (3 años). Cada mes (periodicidad), Odoo crearán 
+una entrada de depreciación reduciendo automáticamente el valor de los activos por 
+$ 1,000 y esos $1,000 pasan como un gasto. Después de 3 años, este patrimonio cuenta 
+por $ 0 (valor residual) en su balance.
 
-The different types of assets are grouped into "Assets Types" that
-describe how to deprecate an asset. Here are two examples of assets
-types:
+Los diferentes tipos de activos se agrupan en "Tipos de Activos" que describen cómo 
+deprecian un activo. He aquí dos ejemplos de activos tipos:
 
--  Building: 10 years, yearly linear depreciation
--  Car: 5 years, monthly linear depreciation
+- Edificio: 10 años, depreciación lineal anual
+- Coche: 5 años, la depreciación lineal mensual
 
-Configuration
+Configuración
 =============
 
-Install the Asset module
-------------------------
+Instalar el módulo de Activos
+-----------------------------
 
-Start by *installing the Asset module.*
+Iniciar con *Instalar el Módulo de Activos.*
 
-Once the module is installed, you should see two new menus in the
-accounting application:
+Una vez que el módulo ya está instalado, usted podrá ver los dos menús que se 
+espliegan en la aplicación de Contabilidad: 
 
--  :menuselection:`Adviser --> Assets`
--  :menuselection:`Configuration --> Asset Types`
+-  :menuselection:`Asesor --> Activos`
+-  :menuselection:`Configuración --> Tipos de Activos`
 
-Before registering your first asset, you must :ref:`define your Asset
-Types <accounting/adviser/assets_management/defining>`.
+Antes de registrar su primer activo, usted debe :ref:`definir sus Tipos de Activos 
+<accounting/adviser/assets_management/defining>`.
 
 .. _accounting/adviser/assets_management/defining:
 
-Defining Asset Types
---------------------
+Definir los Tipos de Activos
+----------------------------
 
-Asset type are used to configure all information about an assets: asset
-and deprecation accounts, amortization method, etc. That way, advisers
-can configure asset types and users can further record assets without
-having to provide any complex accounting information. They just need to
-provide an asset type on the supplier bill.
+Los Tipos de Activos se utilizan para configurar toda la información acerca de 
+un activo: cuentas de activos y depreciación, método de depreciación, etc. De 
+esta manera, los asesores pueden configurar los tipos de activos y los usuarios 
+pueden continuar con el registro de activos sin tener que proporcionar ninguna 
+información contable que sea compleja. Sólo tienen que proporcionar un tipo de 
+activo en la factura de proveedor.
 
-You should create asset types for every group of assets you frequently
-buy like "Cars: 5 years", "Computer Hardware: 3 years". For all other
-assets, you can create generic asset types. Name them according to the
-duration of the asset like "36 Months", "10 Years", ...
+Usted debe crear tipos de activos para cada grupo de activos que compra con 
+frecuencia como "Carros: 5 años", "Hardware de la Computadora: 3 años". Para 
+el resto de los activos, se pueden crear tipos de activos genéricos. Nombre 
+de acuerdo a la duración del activo como "36 meses", "10 Años", ...
 
-To define asset types, go to :menuselection:`Configuration --> Asset
-Types`
+Para definir los Tipos de Activos, vaya a :menuselection:`Configuración --> Tipos de Activos`
 
 .. image:: media/image01.png
    :align: center
@@ -63,91 +62,86 @@ Types`
 
 .. demo:action:: account_asset.action_account_asset_asset_list_normal_sale
 
-   View *Asset Types* in our Online Demonstration
+   Ver *Tipos de Activos* en la demostración en línea.
 
-Create assets manually
-======================
+Crear Activos manualmente
+=========================
 
-To register an asset manually, go to the menu :menuselection:`Adviser
---> Assets`.
+Para registrar activos manualmente, vaya al menú :menuselection:`Asesor
+--> Activos`.
 
 .. image:: media/image08.png
    :align: center
 
-Once your asset is created, don't forget to Confirm it. You can also
-click on the Compute Depreciation button to check the depreciation board
-before confirming the asset.
+Una vez creado su activo, no se olvide de confirmarlo. También puede hacer 
+clic en el botón Depreciación Computadora para comprobar en el tablero antes 
+de confirmar la depreciación del activo.
 
-.. tip::
+.. Consejo::
 
-   if you create asset manually, you still need to create the supplier
-   bill for this asset. The asset document will only produce the
-   depreciation journal entries, not those related to the supplier
-   bill.
+   si crea un activo manualmente, usted todavía necesita crear la factura del 
+   proveedor para este activo. El documento activo sólo producirá los asientos 
+   de diario de depreciación, no los relacionados con la factura del proveedor.
 
-Explanation of the fields:
+Explicación de los campos:
 
 .. demo:fields:: account_asset.action_account_asset_asset_form
 
 .. demo:action:: account_asset.action_account_asset_asset_form
 
-   Try creating an *Asset* in our online demonstration
+   Trata de crear un *Activo* en la demostración en línea. 
 
-Create assets automatically from a supplier bill
-================================================
+Crear activos automáticamente desde la factura del proveedor
+============================================================
 
-Assets can be automatically created from supplier bills. All you need to
-do is to set an asset category on your bill line. When the user will
-validate the bill, an asset will be automatically created, using the
-information of the supplier bill.
+Los activos se pueden crear de forma automática desde las facturas de los 
+proveedores. Todo lo que se necesita hacer es establecer una categoría de 
+activos en su línea de factura. Cuando el usuario haga válido el proyecto, 
+se creará automáticamente un activo, utilizando la información de la factura 
+de proveedor.
 
 .. image:: media/image09.png
 
-Depending on the information on the asset category, the asset will be
-created in draft or directly validated\ *.* It's easier to confirm
-assets directly so that you won't forget to confirm it afterwards.
-(check the field *Skip Draft State* on *Asset Category)* Generate assets
-in draft only when you want your adviser to control all the assets
-before posting them to your accounts.
+En función con la información de la categoría de activo, el activo se creará 
+en el proyecto o se puede validarlo directamente\ *.* Es más fácil confirmar 
+activos directamente para que no se le olvide el hacerlo después. (comprobar 
+el *Saltar Estados del Proyecto* sobre *Categoría de Activos*) Generar activos 
+en el proyecto sólo cuando usted quiere que su asesor controle todos los activos 
+antes de la publicación a sus cuentas.
 
-.. tip:: if you put the asset on the product, the asset category will
-         automatically be filled in the supplier bill.
+.. Consejo:: 
+        si usted pone el activo en el producto, la categoría del activo automáticamente se cubrirá en la factura de proveedor.
 
-How to deprecate an asset?
+¿Cómo depreciar un activo?
 ==========================
 
-Odoo will create depreciation journal entries automatically at the right
-date for every confirmed asset. (not the draft ones). You can control in
-the depreciation board: a green bullet point means that the journal
-entry has been created for this line.
+Odoo creará diarios de asientos de depreciación de forma automática en la fecha 
+adecuada para cada activo confirmado. (no a los proyectos de). Usted puede controlar 
+en el tablero de la depreciación: una viñeta verde que significa que la entrada 
+de diario se ha creado para esta línea.
 
-But you can also post journal entries before the expected date by
-clicking on the green bullet and forcing the creation of related
-depreciation entry.
+Pero también se puede publicar entradas de diario antes de la fecha prevista, haga clic en el botón verde y así se hará creará la entrada de la depreciación relacionada.
 
 .. image:: media/image11.png
    :align: center
 
-.. note:: In the Depreciation board, click on the red bullet to post
-          the journal entry. Click on the :guilabel:`Items` button on
-          the top to see the journal entries which are already posted.
+.. Nota:: En el tablero de Depreciación, haga clic en el botón rojo para dar la entrada del diario. De clic en :guilabel:`Artículos` botón que se encuentra en la parte superior, el cual permitirá ver las entradas publicadas. 
 
-How to modify an existing asset?
-================================
+¿Cómo modificar un activo existente?
+====================================
 
--  Click on :guilabel:`Modify Depreciation`
--  Change the number of depreciation
+-  Da clic en :guilabel:`Modificar Depreciación`
+-  Cambiar el valor de la depreciación
 
-Odoo will automatically recompute a new depreciation board.
+Odoo recalculará automáticamente el cambio y lo mostrará en una nueva entrada del tablero.
 
-How to record the sale or disposal of an asset?
-===============================================
+¿Cómo regstrar la venta o disposición de un activo?
+===================================================
 
-If you sell or dispose an asset, you need to deprecate completly this
-asset. Click on the button :guilabel:`Sell or Dispose`. This action
-will post the full costs of this assets but it will not record the
-sales transaction that should be registered through a customer
-invoice.
+Si usted vende o dispone de un activo, es necesario despreciar completamente este activo. 
+Haga clic en el botón :guilabel:`Vender o Disponer`. Esta acción publicará los costos 
+completos de estos activos pero no va a registrar la transacción de venta que debe ser 
+registrada por medio de una factura de cliente.
 
 .. todo:: → This has to be changed in Odoo: selling an asset should:
 
@@ -156,5 +150,6 @@ invoice.
 
 .. rst-class:: text-muted
 
-| Written by Fabien Pinckaers (https://odoo.com)
-| Proofread by Laurence Henrion, Antony Lesuisse
+| Escrito por Fabien Pinckaers (https://odoo.com)
+| Revisado por Laurence Henrion, Antony Lesuisse
+| Traducción por Alejandra Escandón (Jarsa)
