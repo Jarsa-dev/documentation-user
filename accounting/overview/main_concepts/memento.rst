@@ -1,94 +1,97 @@
 :code-column:
 
-==============================================
-Accounting Memento For Entrepreneurs (US GAAP)
-==============================================
+================================================================
+Recordatorio rápido de Contabilidad para Emprendedores (US GAAP)
+================================================================
 
 .. h:div:: intro-list
 
    .. rst-class:: intro-p-l
 
-   The **Profit and Loss** (P&L) report shows the performance of the company
-   over a specific period (usually the current year).
+  El informe de **Pérdidas y Ganancias** (P&G) muestra el rendimiento de la 
+  empresa durante un período determinado (generalmente el año en curso).
 
    * .. rst-class:: intro-gross-profit
 
-     The **Gross Profit** equals the revenues from sales minus the cost of
-     goods sold.
+     La **Ganancia Bruta** es igual a los ingresos provenientes de las ventas 
+     menos el costo de los bienes vendidos.
 
    * .. rst-class:: intro-opex
 
-     **Operating Expenses** (OPEX) include administration, sales and R&D
-     salaries as well as rent and utilities, miscellaneous costs, insurances,
-     … anything beyond the costs of products sold.
+     **Gastos Operativos** (OPEX) inclyen administración, ventas y salarios, así como 
+     la renta y los servicios públicos, gastos diversos, seguros... nadamás lo que está 
+     en los costos de los productos vendidos
 
    .. rst-class:: intro-balance
 
-   The **Balance Sheet** is a snapshot of the company's finances at a specific
-   date (as opposed to the Profit and Loss which is an analysis over a period)
+   La **Hoja de Balance** es una vista instantánea de las finanzas de la empresa en una fecha 
+   determinada (a diferencia de la de pérdidas y ganancias, que es un análisis en un período)
 
    * .. rst-class:: intro-assets
 
-     **Assets** represent the company's wealth, things it owns. Fixed assets
-     includes building and offices, current assets include bank accounts and
-     cash. A client owing money is an asset. An employee is not an asset.
+     Los **Activos** representan la riqueza de la sociedad, las cosas que se poseen. 
+     Activos fijos incluyen la construcción y las oficinas, activos corrientes incluyen 
+     cuentas bancarias y dinero en efectivo. Un cliente que debe dinero es un activo. 
+     Un empleado no es un activo.
 
    * .. rst-class:: intro-liabilities
 
-     **Liabilities** are obligations from past events that the company will
-     have to pay in the future (utility bills, debts, unpaid suppliers).
+     Los **Pasivos** son obligaciones de los acontecimientos pasados ​​que la empresa 
+     tendrá que pagar en el futuro (facturas de servicios públicos, deudas, proveedores 
+     pendientes de pago).
 
    * .. rst-class:: intro-equity
 
-     **Equity** is the amount of the funds contributed by the owners (founders
-     or shareholders) plus previously retained earnings (or losses).
+     La **Equidad** es la cantidad de los fondos aportados por los propietarios (fundadores 
+     o accionistas), además de las ganancias retenidas previamente (o las pérdidas).
 
      .. rst-class:: intro-retained
 
-     Each year, net profits (or losses) are reported to retained earnings.
+     Cada año, las utilidades netas (o pérdidas) se reportan en los resultados acumulados.
 
 .. h:div:: doc-aside accounts-table
 
    .. placeholder
 
-What is owned (an asset) has been financed through debts to reimburse
-(liabilities) or equity (profits, capital).
+Lo que es de la propiedad (un activo) se ha financiado a través del reembolso de deudas 
+(pasivos) o del capital (ganancias, capital).
 
-A difference is made between buying an assets (e.g. a building) and expenses
-(e.g. fuel). Assets have an intrinsic value over time, versus expenses having
-value in them being consumed for the company to "work".
+Una diferencia se hace entre la compra de un activo (por ejemplo, un edificio) y un 
+gasto (por ejemplo, combustible). Los activos tienen un valor intrínseco en el tiempo, 
+en comparación con los gastos que tienen otro valor, ya que se consumen para que la 
+empresa "trabaje".
 
 
 .. rst-class:: doc-aside
 
 .. highlights:: Assets = Liabilities + Equity
 
-Chart of Accounts
-=================
+Catálogo de Cuentas
+===================
 
-The **chart of accounts** lists all the accounts, whether they are balance
-sheet accounts or P&L accounts. Every financial transaction (e.g. a payment, an
-invoice) impacts accounts by moving value from one account (credit) to an other
-account (debit).
+El **Plan de Cuentas** enumera todas las cuentas, ya sean cuentas del balance general 
+o cuentas de las pérdidas y las ganancias. Cada transacción financiera (por ejemplo, 
+un pago, una factura) modifican las cuentas por valor de pasar de una cuenta (crédito) 
+a otro cuenta (débito).
 
 .. h:div:: doc-aside
 
-   .. highlights:: Balance = Debit - Credit
+   .. highlights:: Balance = Débito - Crédito
 
    .. h:div:: chart-of-accounts
 
       .. placeholder
 
 
-Journal Entries
-===============
+Entradas de Diario
+==================
 
-Every financial document of the company (e.g. an invoice, a bank statement, a
-pay slip, a capital increase contract) is recorded as a journal entry,
-impacting several accounts.
+Cada documento financiero de la empresa (por ejemplo, una factura, un estado 
+de cuenta bancario, un recibo de pago, un contrato de ampliación de capital) 
+se registra como una entrada de diario, impactando varias cuentas.
 
-For a journal entry to be *balanced*, the sum of all its debits must be equal
-to the sum of all its credits.
+Por cada entrada de diario debe ser *balanceada*, la suma de todos sus débitos 
+debe ser igual a la suma de todos sus créditos.
 
 .. h:div:: doc-aside journal-entries
 
@@ -126,7 +129,7 @@ to the sum of all its credits.
 
 .. _accounting/reconciliation:
 
-Reconciliation
+Reconciliación
 ==============
 
 Reconciliation is the process of linking journal items of a specific account,
@@ -239,7 +242,7 @@ There are two approaches to manage checks and internal wire transfer:
    .. rst-class:: table-condensed d-c-table
 
    +-------------------------+--------------+------------+---------------+---------------+
-   |Account                  |Debit         |Credit      |Reconciliation |Bank Statement |
+   |Cuentas                  |Débito        |Credit      |Reconciliation |Bank Statement |
    +=========================+==============+============+===============+===============+
    |Account Receivable       |              |100         |Invoice ABC    |               |
    +-------------------------+--------------+------------+---------------+---------------+
