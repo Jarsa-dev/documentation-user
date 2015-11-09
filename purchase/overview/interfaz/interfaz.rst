@@ -7,6 +7,9 @@ las solicitudes de presupuestos, aunado a lo anterior también se encuentran los
 principales en la parte superior, permitiendo hacer uso de todas las herramientas que 
 ofrece el módulo. 
 
+.. image:: ./media/compra01.png
+   :align: center
+
 En la parte superior donde se encuentra el banner principal, podemos encontrar 
 menús como: *Compra, Control, Informes y Configuración*. Como en todos los módulos, 
 siempre es recomendable empezar por la configuración ya que permite especificar 
