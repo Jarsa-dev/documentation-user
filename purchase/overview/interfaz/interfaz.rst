@@ -22,18 +22,33 @@ son ajustables y se modifican según las preferencias de la empresa. Así como l
 detalles del envío y todas las especificaciones que se deben tener en cuenta al 
 pedir cotizacion con los proveedores. 
 
+.. image:: ./media/compra02.jpg
+   :align: center
+
 En el menú de **Informes** podemos encontrar los análisis de las compras que se han 
 hecho. Todos estos informes o reportes se ajustarán a los filtros que la empresa 
 necesite, de igual manera se pueden exportar dichos reportes en formatos de Excel.
+
+.. image:: ./media/compra03.jpg
+   :align: center
 
 Otro menú que tiene el módulo es el de **Control**, el cual tiene dos opciones las 
 cuales son productos a recibir y las facturas de proveedor. 
 
 - **Productos a recibir**: muestra una lista de todos los productos que están en trámite, así como su estatus, su disponibilidad, el proveedor, la fecha prevista y la fecha de origen.
 
+.. image:: ./media/compra04.jpg
+   :align: center
+
 - **Facturas de proveedor**: muestran la fecha de la factura y la fecha a vencer, así como si está disponible o se encuentra como borrador. También muestra el total y la cantidad a pagar, todo esto ordenado por fecha para poder llevar una mejor control de todas las facturas.
 
+.. image:: ./media/compra05.jpg
+   :align: center
+
 Y por último, en el menú **Compra**, podemos encontrar diferentes opciones como las siguientes:
+
+.. image:: ./media/compra06.jpg
+   :align: center
 
 - **Solicitudes de presupuesto**: las solicitudes muestran los pedidos que se requieren, se adjunta la referencia del proveedor la cual se le enviará y podrá saber las necesidades y hacer un presupuesto del mismo. Aquí mismo se pueden anotar todos los detalles de fechas, plazos y tiempos que se requieren para pagar. 
 
@@ -41,6 +56,12 @@ Y por último, en el menú **Compra**, podemos encontrar diferentes opciones com
 
 - **Proveedores**: se muestran todos los proveedores registrados. En cada uno se encuentra una ficha técnica la cual muestra los datos de cada proveedor, facilitando su clasificación. También se muestra el historial de compras que se tiene con cada uno, las formas de pago que se acordaron, notas internas y datos de contacto. 
 
+.. image:: ./media/compra07.jpg
+   :align: center
+
 - **Productos**: se encuentran todos los productos de la empresa, estos productos se ingresan al sistema detallando sus datos técnicos, donde la clasificación que se hace permite que la búsqueda sea muy sencilla y rápida. 
+
+.. image:: ./media/compra08.jpg
+   :align: center
 
 | Escrito por Alejandra Escandón (Jarsa)
