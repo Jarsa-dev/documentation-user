@@ -7,7 +7,7 @@ las solicitudes de presupuestos, aunado a lo anterior también se encuentran los
 principales en la parte superior, permitiendo hacer uso de todas las herramientas que 
 ofrece el módulo. 
 
-.. image:: ./media/compra01.png
+.. image:: ./media/compra01.jpg
    :align: center
 
 En la parte superior donde se encuentra el banner principal, podemos encontrar 
