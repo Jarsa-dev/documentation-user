@@ -7,5 +7,5 @@ Información general
 
    overview/interfaz
    overview/difference
-   overview/from_po_to_invoice
+   overview/principales
 
