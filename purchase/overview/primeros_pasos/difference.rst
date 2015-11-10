@@ -82,4 +82,3 @@ Si desea conocer acerca de cómo crear una **Propuesta de Compra**, lea el docum
 | Escrito por Samuel Cabodi (Odoo)
 | Revisado por Geoffrey Bressan (Odoo)
 | Traducción por Alejandra Escandón (Jarsa)
-
