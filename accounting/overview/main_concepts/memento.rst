@@ -95,93 +95,90 @@ debe ser igual a la suma de todos sus créditos.
 
 .. h:div:: doc-aside journal-entries
 
-   examples of accounting entries for various transactions. Example:
+   ejemplos de algunas entradas contables de diferentes entradas. Por ejemplo: 
 
-   Example 1: Customer Invoice:
+   Ejemplo 1: Factura del cliente:
 
-   Explanation:
+   Explicación:
 
-     - You generate a revenue of $1,000
-     - You have a tax to pay of $90
-     - The customer owes $1,090
+     - Usted genera un ingreso de $1,000
+     - Usted tiene un impuesto a pagar de $90
+     - El cliente debe $1,090
 
-   Configuration:
+   Configuración:
 
-     - Income: defined on the product, or the product category
-     - Account Receivable: defined on the customer
-     - Tax: defined on the tax set on the invoice line
+     - Ingresos: definido en el producto, o en la categoría del producto
+     - Cuenta por Cobrar: definido en el cliente
+     - Impuestos: definir en el conjunto de impuestos la línea de factura
 
-     The fiscal position used on the invoice may have a rule that
-     replaces the Income Account or the tax defined on the product by another
-     one.
+     La posicion fiscal utilizada en la factura puede tener una rela que sustituye a la Cuenta de ingresos o el impuesto definidio en el producto por otro.
 
-   Example 2: Customer Payment:
+   Ejemplo 2: Pago del Cliente:
 
-   Explanation:
+   Explicación:
 
-     - Your customer owes $1,090 less
-     - Your receive $1,090 on your bank account
+     - Su cliente le debe $1,090 menos
+     - Su recibo $1,090 en su cuenta bancaria
 
-   Configuration:
+   Configuración:
 
-     - Bank Account: defined on the related bank journal
-     - Account Receivable: defined on the customer
+     - Cuenta Bancaria: definida en el diario bancario relacionado
+     - Cuenta por Cobrar: definido en el cliente
 
 .. _accounting/reconciliation:
 
 Reconciliación
 ==============
 
-Reconciliation is the process of linking journal items of a specific account,
-matching credits and debits.
+La reconciliación es el proceso de vinculación de diarios de artículos en una 
+cuenta específica, créditos y débitos a juego.
 
-Its primary purpose is to link payments to their related invoices in order to
-mark invoices that are paid and clear the customer statement. This is done by
-doing a reconciliation on the *Accounts Receivable* account.
+Su objetivo principal es vincular los pagos a sus facturas relacionadas con 
+el fin de marcar cuales facturas fueron pagadas y mandar el comunicado al 
+cliente. Esto se hace mediante una reconciliación en las *Cuentas por Cobrar*.
 
-An invoice is marked as paid when its Accounts Receivable journal items are
-reconciled with the related payment journal items.
+Una factura se marca como pagada cuando los diarios de artículos en Cuentas por 
+cobrar son reconciliados con los artículos de diarios de pago relacionadas.
 
-Reconciliation is performed automatically by the system when:
+La reconciliación se realiza automáticamente por el sistema cuando:
 
-* the payment is registered directly on the invoice
-* the links between the payments and the invoices are detected at the bank
-  matching process
-
+* el pago se ha registrado directamente en la factura
+* los vínculos entre los pagos y las facturas se detectan en el proceso del banco correspondiente
 
 .. h:div:: doc-aside reconciliation-example
 
-   .. rubric:: Customer Statement Example
+   .. rubric:: Ejemplo de Declaración del Cliente
 
    .. rst-class:: table-condensed d-c-table
 
    +-------------------------+-------------------------+-----------------------+
-   |Accounts Receivable      |Debit                    |Credit                 |
+   |Cuentas por Cobrar       |Débito                   |Crédito                |
    +=========================+=========================+=======================+
-   |Invoice 1                |100                      |                       |
+   |Factura 1                |100                      |                       |
    +-------------------------+-------------------------+-----------------------+
-   |Payment 1.1              |                         |70                     |
+   |Pago 1.1                 |                         |70                     |
    +-------------------------+-------------------------+-----------------------+
-   |Invoice 2                |65                       |                       |
+   |Factura 2                |65                       |                       |
    +-------------------------+-------------------------+-----------------------+
-   |Payment 1.2              |                         |30                     |
+   |Pago 1.2                 |                         |30                     |
    +-------------------------+-------------------------+-----------------------+
-   |Payment 2                |                         |65                     |
+   |Pago 2                   |                         |65                     |
    +-------------------------+-------------------------+-----------------------+
-   |Invoice 3                |50                       |                       |
+   |Factura 3                |50                       |                       |
    +-------------------------+-------------------------+-----------------------+
    |                         |                         |                       |
    +-------------------------+-------------------------+-----------------------+
-   |Total To Pay             |50                       |                       |
+   |Total por Pagar          |50                       |                       |
    +-------------------------+-------------------------+-----------------------+
 
 
-Bank Reconciliation
-===================
+Reconciliación Bancaria
+=======================
 
-Bank reconciliation is the matching of bank statement lines (provided by your
-bank) with transactions recorded internally (payments to suppliers or from
-customers). For each line in a bank statement, it can be:
+Conciliación bancaria es la adecuación de las líneas de los estados bancarios (recibida 
+por el banco) con transacciones registradas internamente (pagos a proveedores o desde 
+los clientes). Para cada línea en un estado de cuenta bancaria, que puede ser: 
+
 
 matched with a previously recorded payment:
   a payment is registered when a check is received from a customer, then
