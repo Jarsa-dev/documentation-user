@@ -6,12 +6,12 @@ Dependiendo del flujo de trabajo y las necesidades de su empresa, usted necesita
 enviar a sus iniciativas entrantes a diferentes equipos de ventas o incluso 
 especificar a cuales vendedores serán asignados. Éstos son algunos ejemplos: 
 
-- Su empresa tiene varias oficinas base en diferentes regiones geográficas.
+- Su empresa tiene varias oficinas fijas en diferentes regiones geográficas.
 	Usted tendrá que asignar las iniciativas basadas en la región; 
 
 - Uno de sus equipos se dedica a tratar a las oportunidades de las grandes empresas,
 	mientras que otro equipo debe estar especializado en las PYMES. Usted tendrá que
-	asignar las iniciativas en base al tamño de la empresa;
+	asignar las iniciativas en base al tamaño de la empresa;
 
 - Uno de sus representantes de ventas es el único en hablar idiomas extranjeros,
 	mientras que el resto des equipo habla Inglés solamente. Por lo tanto, tendrá
@@ -57,9 +57,9 @@ siguiente manera:
 .. Nota::
 
 	también se puede basar la asignación automática de la puntuación atribuida a sus 
-	lientes potenciales. Por ejemplo, podemos imaginar que desea que todos las iniciativas
+	clientes potenciales. Por ejemplo, podemos imaginar que desea que todos las iniciativas
 	con una puntuación por debajo de 100, se asignarán a un equipo de ventas entrenados para 
-	royectos más ligeros y las iniciativas de más de 100 a un equipo de ventas con más
+	proyectos más ligeros y las iniciativas de más de 100 a un equipo de ventas con más
 	experiencia. Lea más sobre :doc:`la forma de puntuación clientes potenciales aquí <lead_scoring>`.
 
 Defina reglas para los vendedores

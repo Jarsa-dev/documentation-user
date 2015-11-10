@@ -3,8 +3,8 @@
 =======================================================================
 
 Esta guía rápida paso a paso los guiará a través Odoo CRM y les ayudará a manejar
-y canalizar sus ventas fácil y constantemente, administrando las ventas de inciativas
-a cientes potenciales.
+y canalizar sus ventas fácil y constantemente, administrando las ventas de iniciativas
+a clientes potenciales.
 
 Configuración
 =============
@@ -44,7 +44,7 @@ Configure su primer equipo de ventas
 Crea un nuevo equipo
 --------------------
 
-Un equipo de Venta Directa es creado por defecto en la instancia. Usted puede usarlo o crear uno nuevo. Consulte la página is :doc:`../../salesteam/setup/create_team` para más información.
+Un equipo de Venta Directa es creado por defecto en la instancia. Usted puede usarlo o crear uno nuevo. Consulte la página es :doc:`../../salesteam/setup/create_team` para más información.
 
 Asignar vendedores responsables al equipo de venta
 --------------------------------------------------
@@ -67,7 +67,7 @@ se puede asignar a alguien en su equipo:
   clic en él en la lista desplegable y se le asignará al equipo
 - O usted desea asignar un nuevo vendedor que no existe en el sistema sin embargo, usted puede
   hacerlo mediante la creación de un nuevo usuario sobre la marcha del equipo de ventas. Sólo
-  tiene que introducir el nombre de su nuevo vendedor y haga clic en Create (ver más abajo) para
+  tiene que introducir el nombre de su nuevo vendedor y haga clic en Crear (ver más abajo) para
   crear un nuevo usuario en el sistema y directamente asignarlo a su equipo. El nuevo usuario
   recibirá una invitación de correo electrónico para configurar su contraseña y entrar en el
   sistema. Consulte :doc:`../../salesteam/manage/create_salesperson` Para obtener más información

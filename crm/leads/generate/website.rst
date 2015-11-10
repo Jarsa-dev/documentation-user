@@ -11,7 +11,7 @@ con él y empujarlo más abajo del canal de ventas.
 
 De esta manera es el proceso de trabajo de la generación de iniciativas: 
 
--  Un visitante a su sitio web, hace clic en una llamada de acción (CTA) 
+-  Un visitante en su sitio web, hace clic en una llamada de acción (CTA) 
     desde uno de sus materiales de publicidad (por ejemplo, un boletín electrónico, 
     un mensaje de los medios de comunicación sociales o una entrada de blog)
 
@@ -111,7 +111,7 @@ clic en **Instalar**.
 Una vez instalado el módulo, el siguiente formulario de contacto se integrará 
 a su página "**Contáctanos**". Este formulario está vinculado a Odoo CRM, lo 
 que significa que todos los datos introducidos a través del formulario serán 
-capturados por la CRM y se creará una nueva iniciativa.
+capturados por el CRM y se creará una nueva iniciativa.
 
 .. image:: ./media/website04.jpg
    :align: center
@@ -120,7 +120,7 @@ Cada iniciativa creada a través del formulario de contacto está disponible
 en el módulo de Ventas, haciendo clic en :menuselection:`Ventas --> Iniciativas`. 
 El nombre de la iniciativa corresponde al campo "Asunto" en el formulario de 
 contacto y toda la otra información se almacena en los campos correspondientes 
-dentro de la CRM. Como vendedor, usted puede añadir información adicional, 
+dentro del CRM. Como vendedor, usted puede añadir información adicional, 
 convertir la iniciativa en una oportunidad o incluso directamente marcarlo 
 como Ganado o Perdido.
 

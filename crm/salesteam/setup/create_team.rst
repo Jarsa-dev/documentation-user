@@ -1,6 +1,6 @@
-=========================
+======================================
 ¿Cómo crear un nuevo equipo de Ventas?
-=========================
+======================================
 
 En el módulo de ventas, sus equipos de ventas son accesibles desde el
 menú **Tablero**. Si se inicia desde una nueva instancia, se encuentra un
@@ -9,8 +9,7 @@ usando ese equipo de ventas predeterminados y editarlo (consulte la sección
 *Crear y organizar sus etapas* de la página :doc:`organize_pipeline`)
 o crear uno nuevo desde cero.
 
-Para crear un nuevo equipo de ventas, ve a la sección :menuselection:`Configuración --> Equipo de Ventas`
-y haz clic en **Crear**.
+Para crear un nuevo equipo de ventas, ve a la sección :menuselection:`Configuración --> Equipo de Ventas` y haz clic en **Crear**.
 
 .. image:: ./media/create01.png
   :align: center

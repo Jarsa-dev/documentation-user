@@ -5,18 +5,18 @@
 En Odoo CRM, se puede importar una base de datos de clientes potenciales, 
 por ejemplo para una campaña de llamadas o de correos electrónicos para dar 
 información de la empresa, a través de un archivo CSV. Usted se preguntará 
-si la mejor opción es importar sus contactos como clientes potenciales u 
-oportunidades; depende de sus especificaciones de negocios y flujo de trabajo:
+si la mejor opción es importar sus contactos como iniciativas u oportunidades; 
+depende de sus especificaciones de negocios y flujo de trabajo:
 
 -  Algunas compañías pueden decidir no usar iniciativas y en su lugar prefieren
 	mantener toda la información directamente en una oportunidad. Para algunas 
-	empresas, clientes potenciales no son más que un paso adicional en el 
+	empresas, iniciativas no son más que un paso adicional en el 
 	proceso de venta. Usted podría llamar a esta extensión (comienzo de iniciativa) 
 	contra la simplificación (inicio de la oportunidad) de gestión de relaciones 
 	con los clientes.
 
 -  Odoo permite perfectamente que cualquiera de estos enfoques sea seleccionado. 
-	Si su empresa maneja en las ventas un paso precalificación, no dude en activar 
+	Si su empresa maneja en las ventas un paso de precalificación, no dude en activar 
 	primero el escenario principal como se describe a continuación con el fin de 
 	importar la base de datos y las iniciativas.
 
@@ -25,14 +25,14 @@ Activar las etapas de las iniciativas
 
 Por defecto, la etapa de la iniciativa no se activa en Odoo CRM. Si desea importar 
 los contactos como iniciativas en lugar de oportunidades, vaya a 
-:menuselection:`Configuración --> Ajustes`, seleccione la opción **Usar iniciativas 
-si** ... como se muestra a continuación y haga clic en **Aplicar**.
+:menuselection:`Configuración --> Ajustes`, seleccione la opción **usar iniciativas 
+si...** como se muestra a continuación y haga clic en **Aplicar**.
 
 .. image:: ./media/import01.jpg
    :align: center
 
-Esta activación creará un nuevo submenú :menuselectio:`Ventas --> Iniciativas` 
-desde la que se podrá importar sus contactos con el botón **Importar** (si desea 
+Esta activación creará un nuevo submenú :menuselection:`Ventas --> Iniciativas` 
+desde la que se podrán importar sus contactos con el botón **Importar** (si desea 
 crear una iniciativa de forma manual, :doc: haga clic aquí <manual>`)
 
 .. image:: ./media/import02.jpg
@@ -48,7 +48,7 @@ formato de los archivos correctamente (**Codificación** y *Separador**) para qu
 coincida con los valores locales y se muestren las columnas correctamente.
 
 .. Nota::
-	Si la base de datos a los prospectos se proporciona en otro formato que no sea CSV, 
+	Si la base de datos de los prospectos se proporciona en otro formato que no sea CSV, 
 	usted puede fácilmente convertir al formato CSV con Microsoft Excel, OpenOffice / 
 	LibreOffice Calc, Google Docs, etc.
 
@@ -59,8 +59,8 @@ Seleccionar filas para importar
 ===============================
 
 Odoo asignará automáticamente los encabezados de las columnas de su archivo CSV a 
-los campos correspondientes, si se marca *La primera fila del archivo, contiene la 
-etiqueta de la columna* como opción. Esto hace que las importaciones sean más fáciles, 
+los campos correspondientes, si se marca la opción de *La primera fila del archivo que 
+contiene la etiqueta de la columna*. Esto hace que las importaciones sean más fáciles, 
 especialmente cuando el archivo tiene muchas columnas. Por supuesto, puede reasignar 
 los encabezados de la columna para describir la propiedad que va a importar de datos 
 dentro (Nombre, Apellidos, Correo electrónico, etc.).

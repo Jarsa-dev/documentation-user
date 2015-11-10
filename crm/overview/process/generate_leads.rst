@@ -3,9 +3,9 @@ Generar iniciativas con Odoo CRM
 ================================
 
 ¿Qué es generar una iniciativa?
-==============================
+===============================
 
-El generar inciativas es el proceso por el cual se adquiere contacto y se
+El generar iniciativas es el proceso por el cual se adquiere contacto y se
 recogen los datos relevantes sobre los clientes con el fin de establecer una
 buena relación y poder volverlos clientes potenciales. 
 
@@ -16,7 +16,7 @@ relaciones con los clientes, como Odoo CRM, se utiliza para centralizar, para
 dar seguimiento y dar un mejor servicio a tus clientes potenciales. 
 
 ¿Por qué es importante generar iniciativas para la empresa?
-==========================================================
+===========================================================
 
 El generar un flujo constante de clientes potenciales de alta calidad es una de las
 más importantes responsabilidades del equipo de ventas. En realidad, un buen manejo
@@ -25,7 +25,7 @@ grandes resultados; las iniciativas traen reuniones, las reuniones traen ventas,
 ventas provocan ingresos y mas trabajo.
 
 ¿Cómo generar iniciativas con Odoo CRM?
-======================================
+=======================================
 
 Las iniciativas pueden ser capturadas de diferentes maneras, por publicidad, campañas,
 exhibiciones y ferias de negocios, bases de datos externas, etc. El reto más común es 
@@ -46,7 +46,7 @@ Odoo CRM ofrece varios métodos para generar iniciativas:
 
   Es posible que desee hacer seguimiento de un cliente potencial con el que se reunió brevemente
   en una exposición donde intercambiaron tarjetas. Puede crear manualmente una nueva iniciativa
-  e introduzcir toda la información necesaria.
+  e introducir toda la información necesaria.
 
 * :doc:`../../leads/generate/website`
 
@@ -56,7 +56,7 @@ Odoo CRM ofrece varios métodos para generar iniciativas:
 * :doc:`../../leads/generate/import`
 
   Puedes proveerles a tus agentes de ventas una lista de prospectos, por ejemplo un número de 
-  teléfono o un correo electrónico de clientes potenciales que no conocen la empresa, importandólos
+  teléfono o un correo electrónico de clientes potenciales que no conocen la empresa, importándolos
   desde cualquier archivo CSV. 
 
 .. rst-class:: text-muted
