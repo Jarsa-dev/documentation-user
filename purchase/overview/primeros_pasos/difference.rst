@@ -19,8 +19,8 @@ compiten entre sí, y cual es la mejor oferta para ganar. El interés principal,
 por lo general conduce a mejores ofertas.
 
 Las **Órdenes de Compra** (PO) son órdenes actuales que colocan al proveedor que 
-se haya elegido, ya sea a través de un RfQ (una solicitud de compra) o simplemente 
-cuando usted ya conoce qué proveedor está en la orden 
+se haya elegido, ya sea a través de un RfQ, una solicitud de compra o simplemente 
+cuando usted ya conoce qué proveedor está en la orden.
 
 Cuándo usarlo?
 ==============

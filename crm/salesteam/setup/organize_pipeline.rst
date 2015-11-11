@@ -15,7 +15,7 @@ columnas de lado derecho según sea el avance de cada una.
 
 Cada etapa se refiere a un paso específico en el ciclo de la venta y como se
 específica cada iniciativa según su estado. El número de etapas se canaliza según
-la venta, ya que varía de una compañía a otra. Un ejemplo de concetrar las ventas
+la venta, ya que varía de una compañía a otra. Un ejemplo de concretar las ventas
 sería con las siguientes etapas: *Nuevo, Calificación, Patrocinador Calificado,
 Propuesta, Negociación, Ganados, Perdidos*.
 
@@ -112,7 +112,7 @@ tener este aspecto:
   
   *Tasa de éxito : 75%*
 
-- **Ganado** : El prospecto confirmó la contización y se recibe una orden de venta.
+- **Ganado** : El prospecto confirmó la cotización y se recibe una orden de venta.
   El prospecto se ha convertido en cliente. 
  
   *Tasa de éxito : 100%*
@@ -132,7 +132,7 @@ tener este aspecto:
       haya ganado o cerrado el acuerdo y **0** para acuerdo se cerró y está perdido.
 
 ¿Cómo establecer probabilidades en las etapas? 
----------------------------------------------
+----------------------------------------------
 
 Para editar las etapas, haga clic en el botón **Configuración** que se encuentra de
 lado derecho luego en EDITAR.
@@ -141,7 +141,7 @@ lado derecho luego en EDITAR.
    :align: center
 
 Seleccione la casilla del Cambio de probabilidad automático para permitir que Odoo
-adapte la probabilidad de la oportunidad a la probabilidad definada en la etapa.
+adapte la probabilidad de la oportunidad a la probabilidad definda en la etapa.
 Por ejemplo, si se establece una probabilidad de 0% (Perdida) o 100% (Ganada),
 Odoo asignará la etapa correspondiente cuando la oportunidad se marca como Perdida
 o Ganada.

@@ -1,6 +1,6 @@
-===================================================================================
-Cómo gestionar múltiples ofertas de los proveedores con las solicitudes de compras?
-===================================================================================
+====================================================================================
+¿Cómo gestionar múltiples ofertas de los proveedores con las solicitudes de compras?
+====================================================================================
 
 Una **Solicitud de Compras** (PT), también conocido como Convocatoria, se utiliza 
 para impulsar la competencia entre varios proveedores con el fin de obtener la mejor 
@@ -90,7 +90,7 @@ que desea incluir en la PT, después haga clic en **Crear solicitud de cotizaci�
 .. image:: ./media/image12.png
 	:align: center
 
-La lista de proveedores aparecerá en la sección de **Requesiciones de Cotizaciones**
+La lista de proveedores aparecerá en la sección de **Requesiciones de Cotizaciones**.
 
 .. image:: ./media/image09.png
 	:align: center

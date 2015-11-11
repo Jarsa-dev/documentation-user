@@ -115,7 +115,7 @@ compra en un conjunto de 2.
 
 En la sección Miscelánea, la sección **Activo** le permite activar o desactivar la regla.
 
-En la sección **Tiempo de Entrega**, puede introducir
+En la sección **Tiempo de Entrega**, puede introducir:
 
 -  el número de día(s) para la compra: corresponden al número de días para 
 que el proveedor reciba la orden
