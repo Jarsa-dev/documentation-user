@@ -8,7 +8,7 @@ diferentes pantallas que necesita.
 
 Una vez que haya `instalado la aplicación de Contabilidad 
 <https://www.odoo.com/apps/modules/online/account_accountant/>`__, debe 
-hacer clic en la bara superior derecha donde se ve el proceso para tener 
+hacer clic en la barra superior derecha donde se ve el proceso para tener 
 acceso a la guía de implementación.
 
 .. image:: ./media/setup01.png

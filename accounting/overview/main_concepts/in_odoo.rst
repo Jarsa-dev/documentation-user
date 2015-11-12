@@ -79,7 +79,7 @@ avanzada. Los reportes de Odoo incluyen:
 * Reportes de rendimiento (tales como las pérdidas o ganancias, variantes del presupuestos)
 * Reportes de posición (como balance general, cuentas por pagar pasadas, cuentas por cobrar pasadas)
 * Reportes de efectivo (tales como el resumen de los bancos)
-* Reportes a detalle (tales como el balance y la ocntabilidad general)
+* Reportes a detalle (tales como el balance y la contabilidad general)
 * Gestión de reportes (como presupuestos y resumen ejecutivo)
 
 La configuración de informes en Odoo le permite personalizar su propio informe sobre 

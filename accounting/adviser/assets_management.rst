@@ -28,7 +28,7 @@ Instalar el módulo de Activos
 Iniciar con *Instalar el Módulo de Activos.*
 
 Una vez que el módulo ya está instalado, usted podrá ver los dos menús que se 
-espliegan en la aplicación de Contabilidad: 
+despliegan en la aplicación de Contabilidad: 
 
 -  :menuselection:`Asesor --> Activos`
 -  :menuselection:`Configuración --> Tipos de Activos`
@@ -135,8 +135,8 @@ Pero también se puede publicar entradas de diario antes de la fecha prevista, h
 
 Odoo recalculará automáticamente el cambio y lo mostrará en una nueva entrada del tablero.
 
-¿Cómo regstrar la venta o disposición de un activo?
-===================================================
+¿Cómo registrar la venta o disposición de un activo?
+====================================================
 
 Si usted vende o dispone de un activo, es necesario despreciar completamente este activo. 
 Haga clic en el botón :guilabel:`Vender o Disponer`. Esta acción publicará los costos 

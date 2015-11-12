@@ -18,9 +18,9 @@ Recordatorio rápido de Contabilidad para Emprendedores (US GAAP)
 
    * .. rst-class:: intro-opex
 
-     **Gastos Operativos** (OPEX) inclyen administración, ventas y salarios, así como 
-     la renta y los servicios públicos, gastos diversos, seguros... nadamás lo que está 
-     en los costos de los productos vendidos
+     **Gastos Operativos** (OPEX) incluyen administración, ventas y salarios, así como 
+     la renta y los servicios públicos, gastos diversos, seguros... nada más lo que está 
+     en los costos de los productos vendidos.
 
    .. rst-class:: intro-balance
 
@@ -111,7 +111,7 @@ debe ser igual a la suma de todos sus créditos.
      - Cuenta por Cobrar: definido en el cliente
      - Impuestos: definir en el conjunto de impuestos la línea de factura
 
-     La posicion fiscal utilizada en la factura puede tener una rela que sustituye a la Cuenta de ingresos o el impuesto definidio en el producto por otro.
+     La posición fiscal utilizada en la factura puede tener una regla que sustituye a la Cuenta de ingresos o el impuesto definido en el producto por otro.
 
    Ejemplo 2: Pago del Cliente:
 
@@ -178,7 +178,6 @@ Reconciliación Bancaria
 Conciliación bancaria es la adecuación de las líneas de los estados bancarios (recibida 
 por el banco) con transacciones registradas internamente (pagos a proveedores o desde 
 los clientes). Para cada línea en un estado de cuenta bancaria, que puede ser: 
-
 
 matched with a previously recorded payment:
   a payment is registered when a check is received from a customer, then
